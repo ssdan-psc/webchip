@@ -125,12 +125,11 @@ def parse(file_name):
 #build index.json file from base directory
 def build_index():
 	the_index = []
+	ignore = [".DS_Store", ".gitignore", "parseFiles.py", "index.json", "dataConversionGuide.txt"]
 	for dirname, dirnames, filenames in os.walk('.'):
-		print(filenames)
 		for filename in filenames:
 			tokens = os.path.join(dirname, filename).split("/")
-			print(tokens)
-			if ".gitignore" not in tokens and "parseFiles.py" not in tokens and 'index.json' not in tokens and "dataConversionGuide.txt" not in tokens:
+			if not list(set(tokens) & set(ignore)):	#if intersection of tokens and ignore is empty
 				needed_tokens = tokens[1:]
 				name = needed_tokens[1].split(".")[0]
 				group = needed_tokens[0]
@@ -158,7 +157,7 @@ def main():
 					parse(filename)
 
 if __name__ == "__main__": 
-	main()
+	#main()
 	build_index()
 
 
