@@ -118,6 +118,7 @@ def parse(file_name):
 	group = needed_tokens[0]
 	out_file_name = group + "/" + name
 	with open(out_file_name, 'w') as out_file:
+		print(out_file)
 		j = json.dumps(data, indent=4)
 		out_file.write(j)
 
@@ -125,9 +126,11 @@ def parse(file_name):
 def build_index():
 	the_index = []
 	for dirname, dirnames, filenames in os.walk('.'):
+		print(filenames)
 		for filename in filenames:
 			tokens = os.path.join(dirname, filename).split("/")
-			if ".DS_Store" not in tokens and "parseFiles.py" not in tokens and 'index.json' not in tokens and "dataConversionGuide.txt" not in tokens:
+			print(tokens)
+			if ".gitignore" not in tokens and "parseFiles.py" not in tokens and 'index.json' not in tokens and "dataConversionGuide.txt" not in tokens:
 				needed_tokens = tokens[1:]
 				name = needed_tokens[1].split(".")[0]
 				group = needed_tokens[0]
@@ -151,7 +154,7 @@ def main():
 	 	for dirname, dirnames, filenames in os.walk('.'):
 			for filename in filenames:
 				filename = os.path.join(dirname, filename)
-				if '.dat' in filename:
+				if '.dat' in filename.lower():
 					parse(filename)
 
 if __name__ == "__main__": 
