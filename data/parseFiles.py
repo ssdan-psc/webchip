@@ -12,7 +12,7 @@ def parse(file_name):
 	final_object = {}
 	in_file = open(file_name, "rU")
 	lines = in_file.readlines()
-	lines = [x.rstrip("\n") for x in lines]
+	lines = [x.rstrip(" \n") for x in lines]
 	in_file.close()
 	#title of dataset, string
 	title = lines[0]
@@ -119,7 +119,6 @@ def parse(file_name):
 	group = needed_tokens[0]
 	out_file_name = group + "/" + name
 	with open(out_file_name, 'w') as out_file:
-		print(out_file)
 		j = json.dumps(data, indent=4)
 		out_file.write(j)
 
