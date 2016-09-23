@@ -1,4 +1,4 @@
-webchipApp.factory('tableService', ['uiService'
+webchipApp.factory('tableService', ['uiService',
   function(uiService) {
     /*When assigning an existing object to a variable,
       the variable name is a reference to a pointer to the existing object,
@@ -207,8 +207,6 @@ webchipApp.factory('tableService', ['uiService'
     	pcts.push({"row": "Total", "col": "Total", "total": "100"});
     	return pcts;
     };
-
-
 
     return {
       "generateMarginalTables": generateMarginalTables

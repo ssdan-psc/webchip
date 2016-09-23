@@ -7,6 +7,7 @@ def chunk(l, n):
     n = max(1, n)
     return [l[i:i + n] for i in range(0, len(l), n)]
 
+# Writes JSON from .dat CSV 
 def parse(file_name):
 	final_object = {}
 	in_file = open(file_name, "rU")
@@ -143,6 +144,7 @@ def build_index():
 		j = json.dumps(the_index, indent=4)
 		out_file.write(j)
 
+
 #option to parse individual files, pass as command line arguments, 
 #otherwise parse all in all subdirectories
 def main():
@@ -156,9 +158,10 @@ def main():
 				if '.dat' in filename.lower():
 					parse(filename)
 
+	 build_index()
+
 if __name__ == "__main__": 
-	#main()
-	build_index()
+	main()
 
 
 

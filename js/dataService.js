@@ -1,6 +1,7 @@
 webchipApp.factory('dataService', ['$http',
   function($http) {
     var getIndex = function() {
+      console.log($http.get('data/index.json'))
       return $http.get('data/index.json').then(function(d) {
         return d.data;
       }, function() {
