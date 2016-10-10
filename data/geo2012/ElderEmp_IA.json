@@ -1,0 +1,3136 @@
+{
+    "numCats": [
+        2, 
+        3, 
+        4, 
+        4, 
+        4
+    ], 
+    "varCats": [
+        {
+            "cats": [
+                "Male", 
+                "Female"
+            ], 
+            "name": "Gender"
+        }, 
+        {
+            "cats": [
+                "65-74", 
+                "75-84", 
+                "85+"
+            ], 
+            "name": "AgeEldr"
+        }, 
+        {
+            "cats": [
+                "Poverty", 
+                "NearPoor", 
+                "Middle", 
+                "Comf"
+            ], 
+            "name": "PovLevel"
+        }, 
+        {
+            "cats": [
+                "LTHS", 
+                "HSGrad", 
+                "SomeColl", 
+                "CollGrad"
+            ], 
+            "name": "Educ"
+        }, 
+        {
+            "cats": [
+                "EmpFull", 
+                "EmpPart", 
+                "Unempd", 
+                "NILF"
+            ], 
+            "name": "Emp2"
+        }
+    ], 
+    "title": "2010 Elderly by employment, education, poverty, and gender, age 65+, Iowa, wgtd 2008-12 ACS, SSDAN/U-Mich", 
+    "numOfVars": 5, 
+    "varNames": [
+        "Gender", 
+        "AgeEldr", 
+        "PovLevel", 
+        "Educ", 
+        "Emp2"
+    ], 
+    "theData": [
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "79", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "42", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "3", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "1276", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "67", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "111", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "1701", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "31", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "141", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "19", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "806", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "54", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "6", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "254", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "28", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "64", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "24", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "1998", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "132", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "150", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "77", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "3207", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "35", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "72", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "26", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "859", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "20", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "69", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "47", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "593", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "1120", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "896", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "117", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "5890", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "4238", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "3696", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "320", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "21310", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "1817", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "2241", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "72", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "10228", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "926", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "1415", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "74", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "6376", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "534", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "185", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "15", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "670", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "3616", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "1213", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "46", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "5006", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "2592", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "1246", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "50", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "4216", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "3941", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "2336", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "127", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "6243", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "34", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "21", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "1317", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "8", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "12", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "1567", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "49", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "29", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "453", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "273", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "24", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "27", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "2021", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "39", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "75", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "3", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "2744", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "27", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "42", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "833", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "37", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "227", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "334", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "619", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "56", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "6602", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "774", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "1582", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "68", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "16099", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "405", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "509", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "19", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "5965", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "117", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "592", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "4", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "5555", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "180", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "154", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "1034", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "713", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "246", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "2885", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "403", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "167", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "29", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "1415", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "172", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "452", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "63", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "4010", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "706", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "4", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "485", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "279", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "57", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "1237", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "15", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "947", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "232", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "262", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "40", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "15", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "33", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "3378", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "45", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "131", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "5597", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "48", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "1999", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "30", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "94", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "1724", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "478", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "97", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "1152", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "13", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "7", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "513", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "111", 
+            "Gender": "Male", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "16", 
+            "Gender": "Male", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "1079", 
+            "Gender": "Male", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "51", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "22", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "1987", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "34", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "213", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "20", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "3608", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "15", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "26", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "38", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "992", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "3", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "45", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "65-74", 
+            "Dep": "279", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "91", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "1898", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "121", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "396", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "47", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "5062", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "129", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "180", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "67", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "1658", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "74", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "79", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "65-74", 
+            "Dep": "391", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "396", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "1053", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "20", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "6199", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "2938", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "5742", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "289", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "28228", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "2306", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "3929", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "140", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "13299", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "1169", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "1045", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "65-74", 
+            "Dep": "6509", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "128", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "135", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "869", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "1881", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "1329", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "176", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "6065", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "1846", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "1193", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "51", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "5104", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "1139", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "1257", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "55", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "65-74", 
+            "Dep": "6192", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "9", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "2053", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "4", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "86", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "10", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "4189", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "99", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "21", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "1448", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "53", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "75-84", 
+            "Dep": "489", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "16", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "92", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "3345", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "12", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "303", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "7779", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "6", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "121", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "2955", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "75-84", 
+            "Dep": "527", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "103", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "164", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "7429", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "319", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "1401", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "69", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "24548", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "139", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "789", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "34", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "9855", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "53", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "361", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "15", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "75-84", 
+            "Dep": "5161", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "51", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "633", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "100", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "315", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "3772", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "182", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "102", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "2905", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "104", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "217", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "75-84", 
+            "Dep": "2813", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "1889", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "2629", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "836", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "8", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Poverty", 
+            "AgeEldr": "85+", 
+            "Dep": "161", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "45", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "2608", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "6", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "4159", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "14", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "1724", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "NearPoor", 
+            "AgeEldr": "85+", 
+            "Dep": "393", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "68", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "3589", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "106", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "168", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "9578", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "12", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "52", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "3995", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "25", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Middle", 
+            "AgeEldr": "85+", 
+            "Dep": "2692", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "711", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "5", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "56", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "1524", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "41", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "17", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "938", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "15", 
+            "Gender": "Female", 
+            "Emp2": "EmpFull", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "EmpPart", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp2": "Unempd", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "PovLevel": "Comf", 
+            "AgeEldr": "85+", 
+            "Dep": "780", 
+            "Gender": "Female", 
+            "Emp2": "NILF", 
+            "Educ": "CollGrad"
+        }
+    ]
+}

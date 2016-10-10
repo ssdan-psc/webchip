@@ -7,11 +7,12 @@ def chunk(l, n):
     n = max(1, n)
     return [l[i:i + n] for i in range(0, len(l), n)]
 
+# Writes JSON from .dat CSV 
 def parse(file_name):
 	final_object = {}
 	in_file = open(file_name, "rU")
 	lines = in_file.readlines()
-	lines = [x.rstrip("\n") for x in lines]
+	lines = [x.rstrip(" \n") for x in lines]
 	in_file.close()
 	#title of dataset, string
 	title = lines[0]
@@ -124,10 +125,11 @@ def parse(file_name):
 #build index.json file from base directory
 def build_index():
 	the_index = []
+	ignore = [".DS_Store", ".gitignore", "parseFiles.py", "index.json", "dataConversionGuide.txt"]
 	for dirname, dirnames, filenames in os.walk('.'):
 		for filename in filenames:
 			tokens = os.path.join(dirname, filename).split("/")
-			if ".DS_Store" not in tokens and "parseFiles.py" not in tokens and 'index.json' not in tokens and "dataConversionGuide.txt" not in tokens:
+			if not list(set(tokens) & set(ignore)):	#if intersection of tokens and ignore is empty
 				needed_tokens = tokens[1:]
 				name = needed_tokens[1].split(".")[0]
 				group = needed_tokens[0]
@@ -141,6 +143,7 @@ def build_index():
 		j = json.dumps(the_index, indent=4)
 		out_file.write(j)
 
+
 #option to parse individual files, pass as command line arguments, 
 #otherwise parse all in all subdirectories
 def main():
@@ -151,12 +154,13 @@ def main():
 	 	for dirname, dirnames, filenames in os.walk('.'):
 			for filename in filenames:
 				filename = os.path.join(dirname, filename)
-				if '.dat' in filename:
+				if '.dat' in filename.lower():
 					parse(filename)
+
+	 build_index()
 
 if __name__ == "__main__": 
 	main()
-	build_index()
 
 
 
