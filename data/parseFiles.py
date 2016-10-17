@@ -2,6 +2,7 @@ import json
 import os
 import sys
 import logging
+import argparse
 
 logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 
@@ -156,18 +157,18 @@ def main():
 	parser.add_argument('-f', '--file')
 	args = parser.parse_args()
 
-	 if args.file:
+	if args.file:
 	 	for f in sys.argv:
 	 		parse(f)
-	 else:
+	else:
 	 	for dirname, dirnames, filenames in os.walk('.'):
 			for filename in filenames:
 				filename = os.path.join(dirname, filename)
 				if '.dat' in filename.lower():
 					parse(filename)
 
-	 logging.info('Building index')
-	 build_index()
+	logging.info('Building index')
+	build_index()
 
 if __name__ == "__main__": 
 	main()
