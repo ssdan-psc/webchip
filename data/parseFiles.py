@@ -1,6 +1,9 @@
 import json
 import os
 import sys
+import logging
+
+logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 
 #divide array l in array of arrays of size n
 def chunk(l, n):
@@ -9,6 +12,7 @@ def chunk(l, n):
 
 # Writes JSON from .dat CSV 
 def parse(file_name):
+	logging.info('Parsing ' + file_name)
 	final_object = {}
 	in_file = open(file_name, "rU")
 	lines = in_file.readlines()
@@ -119,13 +123,14 @@ def parse(file_name):
 	group = needed_tokens[0]
 	out_file_name = group + "/" + name
 	with open(out_file_name, 'w') as out_file:
+		logging.info("Writing " + out_file_name)
 		j = json.dumps(data, indent=4)
 		out_file.write(j)
 
 #build index.json file from base directory
 def build_index():
 	the_index = []
-	ignore = [".DS_Store", ".gitignore", "parseFiles.py", "index.json", "dataConversionGuide.txt"]
+	ignore = [".DS_Store", ".gitignore", "parseFiles.py", "index.json", "README.md"]
 	for dirname, dirnames, filenames in os.walk('.'):
 		for filename in filenames:
 			tokens = os.path.join(dirname, filename).split("/")
@@ -147,7 +152,11 @@ def build_index():
 #option to parse individual files, pass as command line arguments, 
 #otherwise parse all in all subdirectories
 def main():
-	 if (len(sys.argv) > 1):
+	parser = argparse.ArgumentParser()
+	parser.add_argument('-f', '--file')
+	args = parser.parse_args()
+
+	 if args.file:
 	 	for f in sys.argv:
 	 		parse(f)
 	 else:
@@ -157,6 +166,7 @@ def main():
 				if '.dat' in filename.lower():
 					parse(filename)
 
+	 logging.info('Building index')
 	 build_index()
 
 if __name__ == "__main__": 
