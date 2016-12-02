@@ -1,0 +1,3419 @@
+{
+    "numCats": [
+        5, 
+        4, 
+        6, 
+        4
+    ], 
+    "varCats": [
+        {
+            "cats": [
+                "NLWhite", 
+                "Black", 
+                "Latino", 
+                "Asian", 
+                "NLOther"
+            ], 
+            "name": "RaceLat"
+        }, 
+        {
+            "cats": [
+                "LTHS", 
+                "HSGrad", 
+                "SomeColl", 
+                "CollGrad"
+            ], 
+            "name": "Educ"
+        }, 
+        {
+            "cats": [
+                "NevMrrd", 
+                "LivingTg", 
+                "Married", 
+                "Divorced", 
+                "Seprated", 
+                "Widowed"
+            ], 
+            "name": "MarStat"
+        }, 
+        {
+            "cats": [
+                "NILF", 
+                "Unempd", 
+                "EmpFull", 
+                "EmpPart"
+            ], 
+            "name": "Emp"
+        }
+    ], 
+    "title": "1990 Women age 25-34, wgtd 5% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 
+    "numOfVars": 4, 
+    "varNames": [
+        "RaceLat", 
+        "Educ", 
+        "MarStat", 
+        "Emp"
+    ], 
+    "theData": [
+        {
+            "Dep": "102596", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "14922", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "64132", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "31506", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "49309", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "12413", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "50717", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "17011", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "463290", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "55706", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "312189", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "160762", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "58121", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "16897", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "65263", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "22030", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "35189", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "9324", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "23849", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "10218", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "8520", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "825", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "2454", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "1762", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "90321", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "31184", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "401646", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "71218", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "51472", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "16976", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "181389", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "36346", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "1187418", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "124405", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "1533197", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "700181", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "67917", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "25746", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "270198", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "51845", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "33204", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "10090", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "66552", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "21867", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "7946", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "1160", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "7822", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "3462", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "76836", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "30289", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "649216", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "106922", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "34507", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "14242", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "210880", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "38055", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "965573", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "89843", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "1763362", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "754965", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "58152", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "18773", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "326371", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "58091", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "22840", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "6957", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "67913", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "20225", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "6208", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "713", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "8581", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "3090", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "57532", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "24083", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "939773", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "112585", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "9344", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "5260", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "156385", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "22183", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "514123", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "42588", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "1477026", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "440216", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "9509", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "3812", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "132251", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "16860", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "2967", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "905", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "28344", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "6880", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "1141", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "180", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "4078", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "948", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "161055", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "45884", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "58159", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "27511", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "17353", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "6285", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "13086", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "4300", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "54499", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "15913", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "57910", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "21188", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "18749", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "7075", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "13657", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "4945", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "31761", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "9794", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "15884", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "7014", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "4238", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "886", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1425", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "710", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "114925", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "46702", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "163267", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "46770", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "12177", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "6594", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "30148", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "5868", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "73944", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "26319", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "168715", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "41846", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "16564", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "8234", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "40405", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "8513", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "21535", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "10756", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "34161", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "9775", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2576", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "768", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2516", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "579", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "64831", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "38028", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "228115", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "46957", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "8058", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "5100", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "40213", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "6228", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "63034", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "23485", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "240210", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "46992", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "14234", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "8262", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "62047", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "9817", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "14674", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "7859", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "43855", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "9485", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1806", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "632", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "3072", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1234", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "10759", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "4825", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "131784", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "17043", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "855", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "546", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "12037", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1434", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "15925", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "5840", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "122447", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "15729", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1644", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "906", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "19086", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1705", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1520", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "775", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "10330", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1583", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "126", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "10", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1155", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "334", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "63516", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "13296", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "49924", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "17629", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "23066", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "5165", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "17793", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "6178", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "250777", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "40055", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "148184", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "57123", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "18133", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "4859", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "15074", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "4669", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "25283", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "5493", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "15128", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "5724", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "3362", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "759", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2050", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "875", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "23157", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "6540", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "48348", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "11758", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "8310", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2057", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "14052", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "3594", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "115148", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "16751", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "136421", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "47482", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "8294", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "3391", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "22511", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "4715", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "9782", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2517", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "10057", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "3128", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1368", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "162", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "963", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "411", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "15148", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "5868", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "69189", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "15261", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "5364", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1666", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "17593", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "3571", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "85272", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "13052", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "159836", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "44987", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "7470", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2022", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "27930", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "4138", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "5099", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1423", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "9731", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2812", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "749", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "134", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1369", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "399", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "6038", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2044", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "43824", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "7490", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1063", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "300", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "6790", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1390", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "27190", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "4651", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "68214", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "16907", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "843", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "284", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "7431", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1035", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "743", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "211", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2069", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "681", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "117", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "58", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "292", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "142", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "6997", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "965", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "5939", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "2081", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1250", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "208", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1189", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "319", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "40308", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "3815", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "29767", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "9363", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "2064", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "184", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "2071", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "460", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "2070", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "266", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "894", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "161", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "955", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "256", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "163", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "4620", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "985", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "12665", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "2437", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "948", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "240", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "2700", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "559", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "36503", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "4751", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "42579", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "12600", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1108", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "346", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "3376", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "729", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1092", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "167", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1420", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "349", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "251", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "157", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "280", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "64", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "8937", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1674", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "25092", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "6502", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1154", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "371", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "4867", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "731", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "41045", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "5061", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "68421", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "18276", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "957", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "229", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "5851", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "781", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "636", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "194", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "2102", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "302", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "182", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "74", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "346", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "19", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "12788", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "2087", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "52917", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "11389", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "878", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "229", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "7138", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1293", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "63883", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "5797", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "96439", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "24872", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "634", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "29", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "4361", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "608", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "245", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1776", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "314", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "205", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "27", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "181", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "84", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "5651", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1039", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2021", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "949", 
+            "MarStat": "NevMrrd", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2740", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "766", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1378", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "519", 
+            "MarStat": "LivingTg", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "11711", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2219", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "6348", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3265", 
+            "MarStat": "Married", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1799", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "584", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1118", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "666", 
+            "MarStat": "Divorced", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1513", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "394", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "557", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "245", 
+            "MarStat": "Seprated", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "313", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "117", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "49", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "87", 
+            "MarStat": "Widowed", 
+            "Educ": "LTHS", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4146", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1353", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "5222", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1357", 
+            "MarStat": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2393", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "797", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2727", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "724", 
+            "MarStat": "LivingTg", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "13376", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2126", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "14064", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "5320", 
+            "MarStat": "Married", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1672", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "670", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2328", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "983", 
+            "MarStat": "Divorced", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "907", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "538", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1100", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "472", 
+            "MarStat": "Seprated", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "175", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "46", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "167", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "99", 
+            "MarStat": "Widowed", 
+            "Educ": "HSGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2880", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1443", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "7510", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1860", 
+            "MarStat": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1550", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "528", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3606", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "833", 
+            "MarStat": "LivingTg", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "9408", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2180", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "16398", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "5808", 
+            "MarStat": "Married", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1427", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "808", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3780", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1048", 
+            "MarStat": "Divorced", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "832", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "243", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1310", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "375", 
+            "MarStat": "Seprated", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "117", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "100", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "227", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "32", 
+            "MarStat": "Widowed", 
+            "Educ": "SomeColl", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "556", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "296", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3010", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "700", 
+            "MarStat": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "147", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "687", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "141", 
+            "MarStat": "LivingTg", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1452", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "184", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "6272", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1605", 
+            "MarStat": "Married", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "126", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "24", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "853", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "109", 
+            "MarStat": "Divorced", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "21", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "233", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "53", 
+            "MarStat": "Seprated", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "29", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "NILF", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "Unempd", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "152", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpFull", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "MarStat": "Widowed", 
+            "Educ": "CollGrad", 
+            "Emp": "EmpPart", 
+            "RaceLat": "NLOther"
+        }
+    ]
+}

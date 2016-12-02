@@ -1,0 +1,3905 @@
+{
+    "numCats": [
+        5, 
+        2, 
+        4, 
+        4, 
+        3
+    ], 
+    "varCats": [
+        {
+            "cats": [
+                "NLWhite", 
+                "Black", 
+                "Latino", 
+                "Asian", 
+                "NLOther"
+            ], 
+            "name": "RaceLat"
+        }, 
+        {
+            "cats": [
+                "Male", 
+                "Female"
+            ], 
+            "name": "Gender"
+        }, 
+        {
+            "cats": [
+                "LTHS", 
+                "HSgrad", 
+                "SomeColl", 
+                "Collgrad"
+            ], 
+            "name": "Educ"
+        }, 
+        {
+            "cats": [
+                "Emp-CW", 
+                "Emp-AF", 
+                "Unemploy", 
+                "NILF"
+            ], 
+            "name": "Emp"
+        }, 
+        {
+            "cats": [
+                "Full", 
+                "Part", 
+                "NA"
+            ], 
+            "name": "Hour"
+        }
+    ], 
+    "title": "1990 Persons age 55-64, wgtd 5% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 
+    "numOfVars": 5, 
+    "varNames": [
+        "RaceLat", 
+        "Gender", 
+        "Educ", 
+        "Emp", 
+        "Hour"
+    ], 
+    "theData": [
+        {
+            "Hour": "Full", 
+            "Dep": "1008370", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "177724", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "38371", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "324", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "28", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "76334", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1029372", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "1357586", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "190666", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "36333", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "764", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "60881", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "794081", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "975361", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "133049", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "22098", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "1189", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "92", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "18", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "43154", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "468279", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "1239827", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "181843", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "19354", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "1568", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "60", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "37267", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "391818", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "497248", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "263630", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "24404", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "21", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "40897", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1627239", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "1070519", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "514840", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "36964", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "89", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "52", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "57714", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1994362", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "643684", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "273743", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "20421", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "146", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "30", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "29460", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "848522", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "457279", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "184066", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "13141", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "65", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "16", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "17", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "12972", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "467947", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "191436", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "35448", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "7771", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "42", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "21897", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "236834", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "89741", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "13015", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "3381", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "236", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "7", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "6735", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "67329", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "62065", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "9371", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1728", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "84", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "21", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "4402", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "38769", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "46566", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "7554", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "852", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "182", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "54", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1605", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "18902", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "135666", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "69675", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "6940", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "42", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "14883", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "369672", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "98871", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "35240", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "3937", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "74", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "14", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "7445", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "133408", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "64883", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "19911", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "2624", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "3615", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "59080", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "49582", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "15000", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1852", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1461", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "30778", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "163515", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "24194", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "7359", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "42", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "17", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "20306", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "112907", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "49057", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "5849", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1324", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "83", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "3777", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "24064", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "41082", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "4691", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1320", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "87", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "2403", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "14718", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "31158", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "4223", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "556", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "54", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "23", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1274", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "7434", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "80713", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "34103", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "5031", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "15337", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "259283", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "37634", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "13176", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1519", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "37", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "3172", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "55834", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "24951", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "8758", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1184", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1946", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "24543", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "14548", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "3735", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "446", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "640", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "9484", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "26186", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "3839", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1094", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "19", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "2750", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "22300", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "24792", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "3341", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "939", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "63", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1800", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "11705", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "24726", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "2490", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "656", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "54", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1301", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "7912", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "50760", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "5170", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "738", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "13", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "29", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "2127", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "11095", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "25741", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "8932", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1275", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "3189", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "63062", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "25955", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "7611", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "885", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "17", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "17", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1295", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "38271", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "16658", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "4870", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "652", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "14", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1109", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "17751", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "21180", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "5012", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "755", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1280", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "12442", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "8335", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "1807", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "320", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "11", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "11", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1932", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "16397", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "5627", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "578", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "111", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "752", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "4347", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "4853", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "1017", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "157", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "36", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "357", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "3674", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "3733", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "484", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "148", 
+            "Gender": "Male", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "308", 
+            "Gender": "Male", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1243", 
+            "Gender": "Male", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "5079", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "2960", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "268", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1239", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "24331", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "4805", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "1715", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "300", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "469", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "8728", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "HSgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "4363", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "1048", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "190", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "477", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "5103", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "2226", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "375", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "78", 
+            "Gender": "Female", 
+            "Emp": "Emp-CW", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Emp-AF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "149", 
+            "Gender": "Female", 
+            "Emp": "Unemploy", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Full", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "Part", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Hour": "NA", 
+            "Dep": "1620", 
+            "Gender": "Female", 
+            "Emp": "NILF", 
+            "Educ": "Collgrad", 
+            "RaceLat": "NLOther"
+        }
+    ]
+}

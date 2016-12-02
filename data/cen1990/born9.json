@@ -1,0 +1,6783 @@
+{
+    "numCats": [
+        6, 
+        5, 
+        4, 
+        8
+    ], 
+    "varCats": [
+        {
+            "cats": [
+                "15-24", 
+                "25-34", 
+                "35-44", 
+                "45-54", 
+                "55-64", 
+                "65+"
+            ], 
+            "name": "Age"
+        }, 
+        {
+            "cats": [
+                "NLWhite", 
+                "Black", 
+                "Latino", 
+                "Asian", 
+                "NLOther"
+            ], 
+            "name": "RaceLat"
+        }, 
+        {
+            "cats": [
+                "LTHS", 
+                "HSGrad", 
+                "SomeColl", 
+                "CollGrad"
+            ], 
+            "name": "Educ"
+        }, 
+        {
+            "cats": [
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6+", 
+                "NoneEM", 
+                "NoneNM"
+            ], 
+            "name": "Child"
+        }
+    ], 
+    "title": "1990 Women age 15+, wgtd 5% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 
+    "numOfVars": 4, 
+    "varNames": [
+        "Age", 
+        "RaceLat", 
+        "Educ", 
+        "Child"
+    ], 
+    "theData": [
+        {
+            "Dep": "380746", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "186897", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "64658", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "16154", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "3147", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "1260", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "143923", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "3979800", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "569754", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "233286", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "50823", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "8226", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "1390", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "799", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "416271", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "1568124", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "374510", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "112478", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "21234", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "3251", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "607", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "533", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "493858", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "3010583", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "36130", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "8211", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "1797", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "693", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "185", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "171", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "181194", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "680740", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "182939", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "86006", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "40831", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "16588", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "6263", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "1985", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "20585", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "861027", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "172834", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "78349", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "28852", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "7706", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "1604", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "513", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "29854", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "312681", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "122759", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "41353", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "11785", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "3236", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "892", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "240", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "38090", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "433041", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "7637", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "1613", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "403", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "218", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "70", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "84", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "7478", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "57442", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "173265", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "97976", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "36313", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "11721", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "2851", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "1273", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "56821", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "682018", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "88458", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "37173", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "9200", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "1860", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "614", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "308", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "41407", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "206579", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "50641", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "17094", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "4375", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "1033", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "258", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "121", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "41254", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "246706", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "4048", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "1155", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "359", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "84", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "18", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "8427", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "31226", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "11713", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "5646", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "1961", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "950", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "470", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "229", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "7829", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "205994", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "12598", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "4522", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "1439", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "384", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "149", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "99", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "9861", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "78086", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "10815", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "2586", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "706", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "156", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "53", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "61", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "14630", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "153555", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "3157", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "616", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "74", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "63", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "18", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "18", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "9492", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "46831", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "12668", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "7245", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "2834", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "1021", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "363", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "48", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "3338", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "65836", 
+            "Age": "15-24", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "10555", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "5692", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "1989", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "555", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "110", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "23", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "3921", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "19495", 
+            "Age": "15-24", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "7049", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "3044", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "849", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "83", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "37", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "5", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "3416", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "24563", 
+            "Age": "15-24", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "241", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "11", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "116", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "27", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "568", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "2145", 
+            "Age": "15-24", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "310578", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "514979", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "313106", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "110497", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "34240", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "17027", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "133345", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "155233", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "1158617", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "1659491", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "692658", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "169928", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "36901", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "12429", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "711153", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "552385", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "1218815", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "1431182", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "538592", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "128584", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "27986", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "9406", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "1083595", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "894444", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "729267", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "629148", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "181618", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "31867", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "5813", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "2272", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "1168769", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "1260219", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "109540", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "148134", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "120124", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "69250", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "30856", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "23186", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "28973", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "69218", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "225105", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "248289", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "149517", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "56592", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "18846", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "9781", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "56552", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "128975", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "270635", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "248476", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "122869", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "41460", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "13153", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "6389", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "93462", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "191784", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "90466", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "56521", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "18225", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "4728", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "1563", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "519", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "64076", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "142300", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "125936", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "220188", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "187298", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "93924", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "35571", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "23848", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "44804", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "62546", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "110861", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "155176", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "87476", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "27374", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "7214", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "3025", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "49142", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "60649", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "118392", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "132067", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "57214", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "15629", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "3657", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "1418", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "80187", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "91519", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "40539", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "32825", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "11073", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "2310", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "836", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "265", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "51033", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "60926", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "21582", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "29748", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "18144", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "9063", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "3740", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "3744", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "13580", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "12144", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "34375", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "37926", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "12674", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "3824", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "1542", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "784", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "21444", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "18357", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "46318", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "43593", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "13693", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "3717", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "734", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "576", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "43039", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "42134", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "66953", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "43679", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "7979", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "1171", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "376", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "118", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "83294", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "84604", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "7241", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "11983", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "9987", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "5971", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "2475", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "2108", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "2433", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "3850", 
+            "Age": "25-34", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "14577", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "17909", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "11975", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "4833", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "1861", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "746", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "4820", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "6041", 
+            "Age": "25-34", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "14501", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "18068", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "9105", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "4462", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "1186", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "350", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "7722", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "8909", 
+            "Age": "25-34", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "3205", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "3354", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "1135", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "554", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "116", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "66", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "3541", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "4679", 
+            "Age": "25-34", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "188830", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "428398", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "328249", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "159104", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "63220", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "43336", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "83086", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "88005", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "771169", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "1785518", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "958974", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "319638", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "88145", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "42009", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "417484", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "191763", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "834168", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "1743887", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "863911", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "271333", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "75662", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "37708", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "590590", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "260975", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "649797", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "1320452", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "538982", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "135481", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "31695", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "15293", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "714713", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "462462", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "69259", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "107010", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "108587", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "75603", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "45745", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "47418", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "27280", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "28404", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "129627", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "204878", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "153372", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "76605", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "31596", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "22919", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "43452", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "36284", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "150110", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "212870", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "135763", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "60022", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "22020", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "15422", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "50257", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "44893", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "86751", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "102991", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "46670", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "14389", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "4329", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "2537", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "43033", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "49418", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "55561", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "127630", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "151159", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "108090", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "61022", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "66084", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "24939", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "23165", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "48284", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "109875", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "87938", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "38101", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "13671", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "8616", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "21460", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "15667", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "49161", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "98824", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "65043", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "25327", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "7855", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "5023", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "27096", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "17305", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "25225", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "40424", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "21305", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "7402", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "1847", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "720", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "20121", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "16903", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "16473", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "39824", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "30563", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "15392", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "7622", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "8588", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "10976", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "5615", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "20867", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "46158", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "24898", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "9375", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "3627", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "2423", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "12402", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "5452", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "27785", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "59525", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "25587", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "8741", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "2779", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "1729", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "17972", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "11326", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "48756", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "98768", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "37329", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "7950", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "1815", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "979", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "32945", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "25309", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "3503", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "7777", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "7434", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "5715", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "3705", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "3806", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "1859", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "1762", 
+            "Age": "35-44", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "6392", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "13940", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "9858", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "5902", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "2738", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "2298", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "3097", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "1846", 
+            "Age": "35-44", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "8431", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "15602", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "11239", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "5558", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "2053", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "1609", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "4805", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "2409", 
+            "Age": "35-44", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "4323", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "5136", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "2718", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "1354", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "359", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "304", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "3218", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "2202", 
+            "Age": "35-44", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "158401", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "379128", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "406125", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "298350", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "176616", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "165442", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "95039", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "68472", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "412680", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "1163454", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "1002351", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "551798", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "235808", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "155636", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "259725", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "104163", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "303805", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "869515", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "679653", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "326023", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "126539", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "81076", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "216112", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "83494", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "244378", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "681714", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "391614", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "148893", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "46517", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "27335", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "241435", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "154846", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "58519", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "68695", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "75746", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "72907", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "62162", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "132528", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "35147", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "17090", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "60850", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "89764", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "84487", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "63092", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "42576", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "51872", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "31066", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "13829", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "50452", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "73725", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "60997", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "39895", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "23716", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "25132", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "23911", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "11802", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "36790", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "49903", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "28825", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "12441", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "6170", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "5264", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "21747", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "13213", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "37152", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "73330", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "80500", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "71035", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "54570", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "108682", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "22112", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "14408", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "20740", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "47096", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "44751", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "27594", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "14434", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "14191", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "12933", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "6557", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "15022", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "35808", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "29877", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "16980", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "7667", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "7227", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "9951", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "5380", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "8146", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "15267", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "11910", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "5697", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "2393", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "2053", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "7584", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "4299", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "9792", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "19289", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "19965", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "15433", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "8867", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "16352", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "8513", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "2860", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "9679", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "23646", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "19545", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "11537", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "5000", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "4435", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "8367", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "2779", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "10393", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "22899", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "17186", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "7512", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "3005", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "3671", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "6982", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "3956", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "16291", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "43574", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "25956", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "8797", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "3023", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "2118", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "13076", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "9619", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "2391", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "4353", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "5686", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "6279", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "4576", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "8831", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "2033", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "1014", 
+            "Age": "45-54", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "2351", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "6143", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "5866", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "4759", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "3471", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "3078", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "1492", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "577", 
+            "Age": "45-54", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "3402", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "5919", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "5133", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "3545", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "1935", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "1774", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "1306", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "628", 
+            "Age": "45-54", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "1123", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "2197", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "1649", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "1102", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "349", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "590", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "980", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "609", 
+            "Age": "45-54", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "251291", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "511522", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "509108", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "384379", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "240648", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "317636", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "167168", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "71687", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "366316", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "904030", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "861954", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "574035", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "301404", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "295389", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "267968", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "103444", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "168571", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "439798", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "445852", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "287921", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "143565", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "131634", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "141746", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "56919", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "101456", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "282798", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "271641", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "158890", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "69078", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "51982", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "107667", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "91991", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "71176", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "67735", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "67110", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "61148", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "58897", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "194026", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "61829", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "14957", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "37249", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "45157", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "42261", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "33547", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "26392", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "55414", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "30006", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "8963", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "21863", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "27604", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "23609", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "19338", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "14902", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "22181", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "16116", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "4500", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "18891", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "22320", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "16997", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "9121", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "5150", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "6174", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "14948", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "5072", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "35000", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "54207", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "53945", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "48679", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "40462", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "123716", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "25652", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "12806", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "11723", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "21934", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "21283", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "16659", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "11224", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "15111", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "8692", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "4746", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "7082", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "12810", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "11627", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "9059", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "5588", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "7038", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "4921", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "3257", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "3562", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "7272", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "4953", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "3004", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "1769", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "2149", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "3203", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "2941", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "8285", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "12029", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "16270", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "14323", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "12841", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "27998", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "8212", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "2241", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "7606", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "16032", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "15055", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "10527", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "5961", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "8637", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "8021", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "2212", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "5034", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "8886", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "8369", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "5924", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "2807", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "3629", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "4744", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "1661", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "4692", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "8710", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "8092", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "5341", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "2262", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "3172", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "4718", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "3682", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "2442", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "3767", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "4514", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "4782", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "3374", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "12049", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "2162", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "787", 
+            "Age": "55-64", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "1552", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "2568", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "2968", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "2477", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "1946", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "2808", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "1246", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "452", 
+            "Age": "55-64", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "955", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "1941", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "2302", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "1894", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "1437", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "1807", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "654", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "191", 
+            "Age": "55-64", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "702", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "830", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "876", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "788", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "256", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "504", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "372", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "120", 
+            "Age": "55-64", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "1113039", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "1621543", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "1195175", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "764134", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "447960", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "706195", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "859680", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "268175", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "891051", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "1462762", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "963499", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "516052", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "244632", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "241640", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "710798", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "245898", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "409171", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "668901", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "450087", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "238346", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "106497", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "100000", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "364946", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "126715", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "210196", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "365832", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "252374", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "124736", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "50640", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "43349", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "230973", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "186074", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "194387", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "141977", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "109293", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "85680", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "70187", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "242905", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "234039", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "30536", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "46002", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "38882", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "30899", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "21714", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "13278", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "33608", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "54601", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "9549", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "20387", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "18239", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "13181", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "8957", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "6470", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "11886", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "24976", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "3846", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "15317", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "14463", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "8600", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "5049", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "2932", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "4052", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "24873", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "6638", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "54372", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "66369", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "57192", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "47430", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "40657", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "132307", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "40550", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "19153", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "12785", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "18851", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "13307", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "8550", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "5747", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "9162", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "9187", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "3897", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "5681", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "8010", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "5224", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "3452", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "2068", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "3414", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "4872", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "2176", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "3643", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "5095", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "2827", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "1610", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "1142", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "1271", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "3336", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "2039", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "12930", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "17635", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "19084", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "19801", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "16471", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "45375", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "8671", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "1944", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "5745", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "9937", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "9697", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "6999", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "5963", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "9254", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "4252", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "2075", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "2725", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "4595", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "4548", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "3551", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "2309", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "3889", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "2208", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "1275", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "2089", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "3823", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "3396", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "2983", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "1945", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "3362", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "2318", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "1713", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "4969", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "6350", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "4983", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "4953", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "4096", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "15323", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "4581", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "892", 
+            "Age": "65+", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "2037", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "2307", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "2146", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "1567", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "982", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "2306", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "1756", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "370", 
+            "Age": "65+", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "1099", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "2183", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "1158", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "1024", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "562", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "1134", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "1322", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "222", 
+            "Age": "65+", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }, 
+        {
+            "Dep": "669", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "1"
+        }, 
+        {
+            "Dep": "950", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "2"
+        }, 
+        {
+            "Dep": "626", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "3"
+        }, 
+        {
+            "Dep": "297", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "4"
+        }, 
+        {
+            "Dep": "245", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "5"
+        }, 
+        {
+            "Dep": "196", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "6+"
+        }, 
+        {
+            "Dep": "671", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneEM"
+        }, 
+        {
+            "Dep": "293", 
+            "Age": "65+", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther", 
+            "Child": "NoneNM"
+        }
+    ]
+}

@@ -1,0 +1,828 @@
+{
+    "numCats": [
+        4, 
+        2, 
+        2, 
+        3, 
+        2
+    ], 
+    "varCats": [
+        {
+            "cats": [
+                "1950", 
+                "1960", 
+                "1970", 
+                "1980"
+            ], 
+            "name": "Year"
+        }, 
+        {
+            "cats": [
+                "Black", 
+                "NonBlack"
+            ], 
+            "name": "Race"
+        }, 
+        {
+            "cats": [
+                "Male", 
+                "Female"
+            ], 
+            "name": "Gender"
+        }, 
+        {
+            "cats": [
+                "0-4", 
+                "5-14", 
+                "15-24"
+            ], 
+            "name": "Age"
+        }, 
+        {
+            "cats": [
+                "Enrolled", 
+                "NotEnrld"
+            ], 
+            "name": "Enroll"
+        }
+    ], 
+    "title": "ENROLLMENT (1/10000 SAMPLE),  Frey/U-Mich for SSDAN - not for commercial purposes.", 
+    "numOfVars": 5, 
+    "varNames": [
+        "Year", 
+        "Race", 
+        "Gender", 
+        "Age", 
+        "Enroll"
+    ], 
+    "theData": [
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "1", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "93", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "117", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "28", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "40", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "78", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "1", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "90", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "121", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "24", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "39", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "91", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "5", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "741", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "945", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "171", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "402", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "557", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "5", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "700", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "908", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "156", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "324", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "674", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "138", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "191", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "30", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "53", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "76", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "139", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "194", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "28", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "53", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "85", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "903", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "1435", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "155", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "524", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "541", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "879", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "1392", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "148", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "449", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "628", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "8", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "115", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "259", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "28", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "101", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "99", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "7", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "113", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "254", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "28", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "99", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "115", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "36", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "711", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "1691", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "134", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "875", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "656", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "35", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "677", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "1623", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "126", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "752", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "806", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "22", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "101", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "257", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "12", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "135", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "137", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "22", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "99", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "256", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "11", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "146", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "145", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "104", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "613", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "1486", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "53", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "926", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "913", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "98", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "585", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "1420", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "48", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "Enrolled", 
+            "Dep": "869", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Enroll": "NotEnrld", 
+            "Dep": "935", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }
+    ]
+}

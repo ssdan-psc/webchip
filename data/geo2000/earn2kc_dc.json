@@ -1,0 +1,2579 @@
+{
+    "numCats": [
+        5, 
+        2, 
+        6, 
+        6
+    ], 
+    "varCats": [
+        {
+            "cats": [
+                "NHwhite", 
+                "Black", 
+                "Hispanic", 
+                "Asian", 
+                "AmIndian"
+            ], 
+            "name": "RaceLat"
+        }, 
+        {
+            "cats": [
+                "Male", 
+                "Female"
+            ], 
+            "name": "Gender"
+        }, 
+        {
+            "cats": [
+                "<15K", 
+                "15-25k", 
+                "25-35K", 
+                "35-50K", 
+                "50-75K", 
+                "75K+"
+            ], 
+            "name": "Earning"
+        }, 
+        {
+            "cats": [
+                "16-24", 
+                "25-34", 
+                "35-44", 
+                "45-54", 
+                "55-64", 
+                "65+"
+            ], 
+            "name": "Age"
+        }
+    ], 
+    "title": "2000 Full time, year round civilian workers in DC, wgtd CPS, Frey/U-Mich", 
+    "numOfVars": 4, 
+    "varNames": [
+        "RaceLat", 
+        "Gender", 
+        "Earning", 
+        "Age"
+    ], 
+    "theData": [
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "<15K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "<15K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "534", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "<15K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "<15K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "465", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "<15K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "<15K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "484", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "15-25k", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "1371", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "15-25k", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "329", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "15-25k", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "15-25k", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "15-25k", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "15-25k", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "1090", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "25-35K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "1168", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "25-35K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "303", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "25-35K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "512", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "25-35K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "25-35K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "25-35K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "1422", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "35-50K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "6154", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "35-50K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "1920", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "35-50K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "35-50K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "35-50K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "339", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "35-50K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "50-75K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "3583", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "50-75K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "3085", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "50-75K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "563", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "50-75K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "1566", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "50-75K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "1187", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "50-75K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "75K+", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "2258", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "75K+", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "3164", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "75K+", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "6873", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "75K+", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "2537", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "75K+", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "377", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "75K+", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "362", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "<15K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "<15K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "542", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "<15K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "<15K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "<15K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "<15K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "1633", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "15-25k", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "15-25k", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "1165", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "15-25k", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "522", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "15-25k", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "236", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "15-25k", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "408", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "15-25k", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "1550", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "25-35K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "1523", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "25-35K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "309", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "25-35K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "25-35K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "774", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "25-35K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "668", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "25-35K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "750", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "35-50K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "4965", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "35-50K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "834", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "35-50K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "714", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "35-50K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "1368", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "35-50K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "282", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "35-50K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "50-75K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "2538", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "50-75K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "1659", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "50-75K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "2162", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "50-75K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "317", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "50-75K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "50-75K", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "75K+", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "1395", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "75K+", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "2255", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "75K+", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "1992", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "75K+", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "1979", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "75K+", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "75K+", 
+            "RaceLat": "NHwhite"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "<15K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "<15K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2024", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "<15K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "392", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "<15K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "586", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "<15K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "<15K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2002", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "15-25k", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "4168", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "15-25k", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "3726", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "15-25k", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1332", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "15-25k", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "744", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "15-25k", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "15-25k", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1109", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "25-35K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "8279", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "25-35K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "5896", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "25-35K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2201", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "25-35K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1860", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "25-35K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "25-35K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "35-50K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2782", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "35-50K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "3490", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "35-50K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "4351", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "35-50K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2290", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "35-50K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "789", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "35-50K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "50-75K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2734", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "50-75K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "3101", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "50-75K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "4687", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "50-75K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "447", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "50-75K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "50-75K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "75K+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "703", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "75K+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "75K+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "75K+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "75K+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "75K+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1192", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "<15K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "<15K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1958", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "<15K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1325", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "<15K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "667", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "<15K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1165", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "<15K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2362", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "15-25k", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2845", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "15-25k", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2390", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "15-25k", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "4085", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "15-25k", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "497", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "15-25k", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "15-25k", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "373", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "25-35K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2287", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "25-35K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "4913", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "25-35K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "3650", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "25-35K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "825", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "25-35K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "25-35K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "373", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "35-50K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "3683", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "35-50K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "4485", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "35-50K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "4339", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "35-50K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "944", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "35-50K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "35-50K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "50-75K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2668", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "50-75K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2351", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "50-75K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2864", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "50-75K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1303", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "50-75K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "50-75K", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "75K+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "716", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "75K+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "579", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "75K+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "924", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "75K+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "75K+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "377", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "75K+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "692", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "<15K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "364", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "<15K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "156", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "<15K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "560", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "<15K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "<15K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "<15K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "666", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "15-25k", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "915", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "15-25k", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "1174", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "15-25k", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "322", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "15-25k", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "189", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "15-25k", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "15-25k", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "25-35K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "25-35K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "251", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "25-35K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "173", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "25-35K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "25-35K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "25-35K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "35-50K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "35-50K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "490", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "35-50K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "226", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "35-50K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "35-50K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "35-50K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "50-75K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "50-75K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "377", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "50-75K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "50-75K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "50-75K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "50-75K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "75K+", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "75K+", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "75K+", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "75K+", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "75K+", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "75K+", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "135", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "<15K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "668", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "<15K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "492", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "<15K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "621", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "<15K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "<15K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "<15K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "15-25k", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "15-25k", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "173", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "15-25k", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "292", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "15-25k", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "189", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "15-25k", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "15-25k", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "25-35K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "25-35K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "25-35K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "234", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "25-35K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "25-35K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "25-35K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "35-50K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "35-50K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "233", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "35-50K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "35-50K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "35-50K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "35-50K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "50-75K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "50-75K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "50-75K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "50-75K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "50-75K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "50-75K", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "75K+", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "75K+", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "249", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "75K+", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "75K+", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "75K+", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "75K+", 
+            "RaceLat": "Hispanic"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "<15K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "<15K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "<15K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "<15K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "<15K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "<15K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "567", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "15-25k", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "15-25k", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "15-25k", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "15-25k", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "456", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "15-25k", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "15-25k", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "25-35K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "25-35K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "25-35K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "25-35K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "25-35K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "25-35K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "35-50K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "545", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "35-50K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "35-50K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "35-50K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "35-50K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "35-50K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "50-75K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "50-75K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "50-75K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "50-75K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "50-75K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "50-75K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "75K+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "75K+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "75K+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "75K+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "75K+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "75K+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "<15K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "<15K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "<15K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "<15K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "<15K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "<15K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "15-25k", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "15-25k", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "15-25k", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "456", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "15-25k", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "15-25k", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "15-25k", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "25-35K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "25-35K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "25-35K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "25-35K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "25-35K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "25-35K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "35-50K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "339", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "35-50K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "35-50K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "35-50K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "35-50K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "35-50K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "50-75K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "50-75K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "50-75K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "50-75K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "352", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "50-75K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "50-75K", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "75K+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "333", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "75K+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "75K+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "75K+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "75K+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "75K+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "<15K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "<15K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "<15K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "<15K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "<15K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "<15K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "15-25k", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "15-25k", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "15-25k", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "15-25k", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "15-25k", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "15-25k", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "25-35K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "25-35K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "25-35K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "25-35K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "25-35K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "25-35K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "35-50K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "35-50K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "35-50K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "35-50K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "35-50K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "35-50K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "50-75K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "50-75K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "50-75K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "50-75K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "50-75K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "50-75K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "16-24", 
+            "Earning": "75K+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Earning": "75K+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Earning": "75K+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Earning": "75K+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Earning": "75K+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Earning": "75K+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "<15K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "<15K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "<15K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "<15K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "<15K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "<15K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "15-25k", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "15-25k", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "15-25k", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "15-25k", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "15-25k", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "15-25k", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "25-35K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "25-35K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "25-35K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "25-35K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "25-35K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "25-35K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "35-50K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "35-50K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "35-50K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "35-50K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "35-50K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "35-50K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "50-75K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "50-75K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "50-75K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "50-75K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "50-75K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "50-75K", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "16-24", 
+            "Earning": "75K+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Earning": "75K+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Earning": "75K+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Earning": "75K+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Earning": "75K+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Earning": "75K+", 
+            "RaceLat": "AmIndian"
+        }
+    ]
+}

@@ -1,0 +1,952 @@
+{
+    "numCats": [
+        4, 
+        2, 
+        2, 
+        8
+    ], 
+    "varCats": [
+        {
+            "cats": [
+                "1950", 
+                "1960", 
+                "1970", 
+                "1980"
+            ], 
+            "name": "Year"
+        }, 
+        {
+            "cats": [
+                "Black", 
+                "NonBlack"
+            ], 
+            "name": "Race"
+        }, 
+        {
+            "cats": [
+                "Male", 
+                "Female"
+            ], 
+            "name": "Gender"
+        }, 
+        {
+            "cats": [
+                "0-4", 
+                "5-14", 
+                "15-24", 
+                "25-34", 
+                "35-44", 
+                "45-54", 
+                "55-65", 
+                "65+"
+            ], 
+            "name": "Age"
+        }
+    ], 
+    "title": "POPULATION (1/10000 SAMPLE), Frey/U-Mich for SSDAN - not for commercial purposes.", 
+    "numOfVars": 4, 
+    "varNames": [
+        "Year", 
+        "Race", 
+        "Gender", 
+        "Age"
+    ], 
+    "theData": [
+        {
+            "Dep": "93", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "145", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "118", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "107", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "95", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "76", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "43", 
+            "Gender": "Male", 
+            "Age": "55-65", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "42", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "91", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "146", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "130", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "129", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "107", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "77", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "47", 
+            "Gender": "Female", 
+            "Age": "55-65", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "46", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "746", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "1116", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "959", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "1017", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "920", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "768", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "605", 
+            "Gender": "Male", 
+            "Age": "55-65", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "527", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "705", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "1064", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "998", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "1097", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "972", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "801", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "625", 
+            "Gender": "Female", 
+            "Age": "55-65", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "610", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "138", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "222", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "129", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "112", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "108", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "89", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "61", 
+            "Gender": "Male", 
+            "Age": "55-65", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "50", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "139", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "222", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "139", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "131", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "125", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "99", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "69", 
+            "Gender": "Female", 
+            "Age": "55-65", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "61", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "903", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "1591", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "1064", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "1005", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "1070", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "926", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "700", 
+            "Gender": "Male", 
+            "Age": "55-65", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "673", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "880", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "1540", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "1078", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "1037", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "1119", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "951", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "748", 
+            "Gender": "Female", 
+            "Age": "55-65", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "821", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "121", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "288", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "199", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "116", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "106", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "96", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "75", 
+            "Gender": "Male", 
+            "Age": "55-65", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "69", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "120", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "282", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "213", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "144", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "131", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "111", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "86", 
+            "Gender": "Female", 
+            "Age": "55-65", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "89", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "746", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1826", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1531", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1086", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1003", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1011", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "805", 
+            "Gender": "Male", 
+            "Age": "55-65", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "779", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "712", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1750", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1559", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1129", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1052", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1083", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "891", 
+            "Gender": "Female", 
+            "Age": "55-65", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1079", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "126", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "267", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "275", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "196", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "119", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "98", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "87", 
+            "Gender": "Male", 
+            "Age": "55-65", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "84", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "123", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "265", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "292", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "227", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "149", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "124", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "102", 
+            "Gender": "Female", 
+            "Age": "55-65", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "126", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "718", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1540", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1840", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1637", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1137", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "992", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "934", 
+            "Gender": "Male", 
+            "Age": "55-65", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "942", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "684", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1468", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1804", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1655", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1159", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1054", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1054", 
+            "Gender": "Female", 
+            "Age": "55-65", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1398", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }
+    ]
+}

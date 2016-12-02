@@ -1,0 +1,1737 @@
+{
+    "numCats": [
+        2, 
+        5, 
+        4, 
+        6
+    ], 
+    "varCats": [
+        {
+            "cats": [
+                "Male", 
+                "Female"
+            ], 
+            "name": "Gender"
+        }, 
+        {
+            "cats": [
+                "NLWhite", 
+                "Black", 
+                "Latino", 
+                "Asian", 
+                "NLOther"
+            ], 
+            "name": "RaceLat"
+        }, 
+        {
+            "cats": [
+                "LTHS", 
+                "HSGrad", 
+                "SomeColl", 
+                "CollGrad"
+            ], 
+            "name": "Educ"
+        }, 
+        {
+            "cats": [
+                "NevMrrd", 
+                "LivingTg", 
+                "Married", 
+                "Divorced", 
+                "Seprated", 
+                "Widowed"
+            ], 
+            "name": "MarStus"
+        }
+    ], 
+    "title": "1990 Population Ages 65+, total wgtd 5% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 
+    "numOfVars": 4, 
+    "varNames": [
+        "Gender", 
+        "RaceLat", 
+        "Educ", 
+        "MarStus"
+    ], 
+    "theData": [
+        {
+            "Dep": "238865", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "31634", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "3401739", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "200571", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "41773", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "765291", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "119285", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "18778", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "2224881", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "107851", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "16854", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "322482", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "54416", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "11837", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "1409642", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "74113", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "11158", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "175931", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "72179", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "10120", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "1347790", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "60953", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "9623", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "147921", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "45259", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "13196", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "388323", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "52800", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "39956", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "162876", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "8248", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2502", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "80271", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "11586", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "5319", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "22872", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "3867", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "992", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "43455", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "7640", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2922", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "9401", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "2613", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "441", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "29036", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "3607", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1110", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "5208", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "17330", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "3354", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "213585", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "18172", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "9041", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "45437", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2226", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "508", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "38372", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "3443", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "938", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "6159", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1368", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "580", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "24794", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2187", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "721", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2597", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1684", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "264", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "18724", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1523", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "462", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2334", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "4332", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "476", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "71825", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "2567", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1441", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "12259", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1774", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "305", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "33397", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1012", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "510", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "4711", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "874", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "163", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "21822", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "961", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "576", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "2474", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1284", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "103", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "29802", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "810", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "413", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "2771", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "2362", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "512", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "20938", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2359", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1091", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "6850", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "364", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "69", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "5283", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "898", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "219", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1363", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "172", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "164", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3746", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "662", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "23", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "647", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "172", 
+            "Gender": "Male", 
+            "MarStus": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2", 
+            "Gender": "Male", 
+            "MarStus": "LivingTg", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2541", 
+            "Gender": "Male", 
+            "MarStus": "Married", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "326", 
+            "Gender": "Male", 
+            "MarStus": "Divorced", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "105", 
+            "Gender": "Male", 
+            "MarStus": "Seprated", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "475", 
+            "Gender": "Male", 
+            "MarStus": "Widowed", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "286861", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "24784", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "2327435", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "319149", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "42666", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "3975006", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "252685", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "18629", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "2433789", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "264984", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "24115", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "2282130", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "129098", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "8443", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "1085234", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "168329", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "11916", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "1061643", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "187895", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "4167", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "630035", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "90560", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "5227", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "546290", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "61498", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "9448", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "247825", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "75375", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "50309", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "664549", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "LTHS", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "16072", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1984", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "72294", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "25800", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "9717", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "122666", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "5635", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "758", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "30595", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "14049", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "4293", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "52612", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "7429", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "305", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "27863", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "9541", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1532", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "35254", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "31794", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "3204", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "154674", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "34878", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "16136", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "217344", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "4571", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "685", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "33227", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "7351", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2029", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "33623", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2629", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "270", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "13909", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "3915", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "877", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "13297", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2176", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "87", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "8508", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2162", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "295", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "7735", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "3050", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "262", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "53520", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "3125", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "2712", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "79242", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "LTHS", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "2274", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "229", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "26643", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "2427", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "778", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "21571", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1393", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "40", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "12375", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1385", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "539", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "9368", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1810", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "76", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "10525", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "919", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "376", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "7923", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1536", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "498", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "14392", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3228", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "920", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "25573", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "445", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "118", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "5425", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1101", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "213", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "6169", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "306", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "25", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3899", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1282", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "141", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3051", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "279", 
+            "Gender": "Female", 
+            "MarStus": "NevMrrd", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "30", 
+            "Gender": "Female", 
+            "MarStus": "LivingTg", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1422", 
+            "Gender": "Female", 
+            "MarStus": "Married", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "371", 
+            "Gender": "Female", 
+            "MarStus": "Divorced", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "23", 
+            "Gender": "Female", 
+            "MarStus": "Seprated", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1822", 
+            "Gender": "Female", 
+            "MarStus": "Widowed", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }
+    ]
+}

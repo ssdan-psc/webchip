@@ -1,0 +1,895 @@
+{
+    "numCats": [
+        2, 
+        2, 
+        6, 
+        5
+    ], 
+    "varCats": [
+        {
+            "cats": [
+                "1970", 
+                "1980"
+            ], 
+            "name": "Year"
+        }, 
+        {
+            "cats": [
+                "Black", 
+                "NonBlack"
+            ], 
+            "name": "Race"
+        }, 
+        {
+            "cats": [
+                "15-24", 
+                "25-34", 
+                "35-44", 
+                "45-54", 
+                "55-64", 
+                "65+"
+            ], 
+            "name": "Age"
+        }, 
+        {
+            "cats": [
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5+"
+            ], 
+            "name": "HHSize"
+        }
+    ], 
+    "title": "Household size, all household heads that are in families (1/10000 SAMPLE),  Frey/U-Mich for SSDAN - not for commercial purposes.", 
+    "numOfVars": 4, 
+    "varNames": [
+        "Year", 
+        "Race", 
+        "Age", 
+        "HHSize"
+    ], 
+    "theData": [
+        {
+            "Dep": "0", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "HHSize": "1", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "11", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "HHSize": "2", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "13", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "HHSize": "3", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "8", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "HHSize": "4", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "7", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "HHSize": "5+", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "HHSize": "1", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "17", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "HHSize": "2", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "22", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "HHSize": "3", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "24", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "HHSize": "4", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "46", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "HHSize": "5+", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "HHSize": "1", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "16", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "HHSize": "2", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "17", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "HHSize": "3", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "19", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "HHSize": "4", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "58", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "HHSize": "5+", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "HHSize": "1", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "25", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "HHSize": "2", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "18", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "HHSize": "3", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "15", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "HHSize": "4", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "37", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "HHSize": "5+", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "HHSize": "1", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "28", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "HHSize": "2", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "15", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "HHSize": "3", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "8", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "HHSize": "4", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "17", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "HHSize": "5+", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "HHSize": "1", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "31", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "HHSize": "2", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "12", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "HHSize": "3", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "6", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "HHSize": "4", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "9", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "HHSize": "5+", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "HHSize": "1", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "143", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "HHSize": "2", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "112", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "HHSize": "3", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "45", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "HHSize": "4", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "17", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "HHSize": "5+", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "HHSize": "1", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "163", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "HHSize": "2", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "207", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "HHSize": "3", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "282", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "HHSize": "4", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "278", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "HHSize": "5+", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "HHSize": "1", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "103", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "HHSize": "2", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "137", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "HHSize": "3", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "250", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "HHSize": "4", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "478", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "HHSize": "5+", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "HHSize": "1", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "283", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "HHSize": "2", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "246", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "HHSize": "3", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "210", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "HHSize": "4", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "248", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "HHSize": "5+", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "HHSize": "1", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "448", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "HHSize": "2", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "174", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "HHSize": "3", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "76", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "HHSize": "4", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "62", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "HHSize": "5+", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "HHSize": "1", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "508", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "HHSize": "2", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "95", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "HHSize": "3", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "28", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "HHSize": "4", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "21", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "HHSize": "5+", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "HHSize": "1", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "17", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "HHSize": "2", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "17", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "HHSize": "3", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "9", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "HHSize": "4", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "6", 
+            "Age": "15-24", 
+            "Race": "Black", 
+            "HHSize": "5+", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "HHSize": "1", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "34", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "HHSize": "2", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "47", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "HHSize": "3", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "44", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "HHSize": "4", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "43", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "HHSize": "5+", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "HHSize": "1", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "19", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "HHSize": "2", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "26", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "HHSize": "3", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "31", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "HHSize": "4", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "58", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "HHSize": "5+", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "HHSize": "1", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "25", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "HHSize": "2", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "22", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "HHSize": "3", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "19", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "HHSize": "4", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "38", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "HHSize": "5+", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "HHSize": "1", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "34", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "HHSize": "2", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "19", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "HHSize": "3", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "11", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "HHSize": "4", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "18", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "HHSize": "5+", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "HHSize": "1", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "42", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "HHSize": "2", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "15", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "HHSize": "3", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "7", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "HHSize": "4", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "10", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "HHSize": "5+", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "HHSize": "1", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "162", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "HHSize": "2", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "108", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "HHSize": "3", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "46", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "HHSize": "4", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "16", 
+            "Age": "15-24", 
+            "Race": "NonBlack", 
+            "HHSize": "5+", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "HHSize": "1", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "315", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "HHSize": "2", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "337", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "HHSize": "3", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "375", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "HHSize": "4", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "215", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "HHSize": "5+", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "HHSize": "1", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "137", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "HHSize": "2", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "205", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "HHSize": "3", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "363", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "HHSize": "4", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "376", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "HHSize": "5+", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "HHSize": "1", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "287", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "HHSize": "2", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "254", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "HHSize": "3", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "210", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "HHSize": "4", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "208", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "HHSize": "5+", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "HHSize": "1", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "538", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "HHSize": "2", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "202", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "HHSize": "3", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "85", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "HHSize": "4", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "60", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "HHSize": "5+", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "HHSize": "1", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "661", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "HHSize": "2", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "101", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "HHSize": "3", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "27", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "HHSize": "4", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "19", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "HHSize": "5+", 
+            "Year": "1980"
+        }
+    ]
+}
