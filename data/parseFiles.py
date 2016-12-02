@@ -131,7 +131,7 @@ def parse(file_name):
 #build index.json file from base directory
 def build_index():
 	the_index = []
-	ignore = [".DS_Store", ".gitignore", "parseFiles.py", "index.json", "README.md"]
+	ignore = [".DS_Store", ".gitignore", "parseFiles.py", "index.json", "README.md", "rename.py"]
 	for dirname, dirnames, filenames in os.walk('.'):
 		for filename in filenames:
 			tokens = os.path.join(dirname, filename).split("/")
@@ -166,6 +166,8 @@ def main():
 				filename = os.path.join(dirname, filename)
 				if '.dat' in filename.lower():
 					parse(filename)
+				else:
+					logging.info("Skipped parse & build JSON for " + filename)
 
 	logging.info('Building index')
 	build_index()

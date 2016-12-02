@@ -1,0 +1,4866 @@
+{
+    "numCats": [
+        5, 
+        2, 
+        3, 
+        4, 
+        5
+    ], 
+    "varCats": [
+        {
+            "cats": [
+                "1950", 
+                "1960", 
+                "1970", 
+                "1980", 
+                "1990"
+            ], 
+            "name": "Year"
+        }, 
+        {
+            "cats": [
+                "Nonblack", 
+                "Black"
+            ], 
+            "name": "Race"
+        }, 
+        {
+            "cats": [
+                "MrrdCpl", 
+                "MaleFam", 
+                "FemlFam"
+            ], 
+            "name": "Famtype"
+        }, 
+        {
+            "cats": [
+                "LTHS", 
+                "HSGrad", 
+                "SomeColl", 
+                "CollGrad"
+            ], 
+            "name": "Educ"
+        }, 
+        {
+            "cats": [
+                "<15K", 
+                "15-25K", 
+                "25-35K", 
+                "35-50K", 
+                "50K+"
+            ], 
+            "name": "FmIncome"
+        }
+    ], 
+    "title": "FMIN5090: 1950-90, Family income by family yype for family heads age 25+, wgtd PUMS, Frey/U-MICH", 
+    "numOfVars": 5, 
+    "varNames": [
+        "Year", 
+        "Race", 
+        "Famtype", 
+        "Educ", 
+        "FmIncome"
+    ], 
+    "theData": [
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "9303690", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "5907660", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1848660", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "986700", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "368610", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1702800", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2408340", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "881760", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "417780", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "220110", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "561990", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "818070", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "411510", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "237270", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "167310", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "428010", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "709830", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "476520", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "388740", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "372900", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "515130", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "196680", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "80850", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "50160", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "18810", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "66330", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "45540", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "17160", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "14190", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "5940", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "20460", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "16830", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "8250", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "4290", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "4290", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "15180", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "12870", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "5940", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "8250", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "7590", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "1521300", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "315480", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "115500", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "62040", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "15510", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "324390", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "89430", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "40920", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "23760", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "11220", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "106920", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "40260", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "17160", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "9900", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "5280", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "57090", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "39600", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "13530", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "11880", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "5610", 
+            "Race": "Nonblack", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1674750", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "260370", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "44550", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "16500", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2640", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "80520", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "46530", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "8580", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "4620", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "660", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "33000", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "15840", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "7260", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2640", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "660", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "21120", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "14850", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "3630", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "990", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1980", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "96690", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "15510", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "3300", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "330", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "0", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "3960", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "660", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "330", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "330", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "0", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "2310", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "0", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "660", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "0", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "0", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "660", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "330", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "330", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "0", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "0", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "445830", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "21120", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "4290", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "1320", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "660", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "33000", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "2970", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "330", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "990", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "0", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "10560", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "1980", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "660", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "660", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "330", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "6600", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "3300", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "660", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "330", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "330", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "5526600", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "6034600", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "3832600", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "3144700", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1135300", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "817600", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2194700", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2020100", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1820800", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "730000", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "340000", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "805900", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "904100", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1037300", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "619300", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "199800", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "498400", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "717400", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1162400", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1154500", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "272600", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "207100", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "113200", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "109500", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "50100", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "30800", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "51200", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "40400", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "34800", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "21200", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "11600", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "16900", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "18800", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "19900", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "15300", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "8000", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "12100", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "15100", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "22000", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "20000", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "1130500", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "495200", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "206700", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "165200", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "67600", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "299800", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "205300", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "79700", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "67300", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "27700", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "109800", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "91300", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "39100", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "34800", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "17200", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "34100", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "48300", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "36500", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "34700", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "18100", 
+            "Race": "Nonblack", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1227800", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "653400", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "207400", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "123500", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "30600", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "82800", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "121000", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "50500", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "34400", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "7600", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "28600", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "46100", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "27700", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "23400", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "5000", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "9000", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "23000", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "17700", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "23900", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "9200", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "78400", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "32600", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "11800", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "6700", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "1800", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "4000", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "4700", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "2300", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "1600", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "400", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "1900", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "2300", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "1000", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "500", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "600", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "800", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "1000", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "700", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "600", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "300", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "530000", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "86300", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "24200", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "16800", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "3000", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "58800", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "16400", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "4500", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "3200", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "800", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "18200", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "6900", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "1900", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "2100", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "800", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "4500", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "6600", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "2600", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "1300", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "200", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "3582100", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "3474600", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "3023400", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "4171100", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2292500", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "670800", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1489200", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2116600", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "3780900", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2457900", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "274400", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "504200", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "786700", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1757700", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1609700", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "190700", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "316600", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "489000", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1593800", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "3050900", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "1191800", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "665700", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "388300", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "378500", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "199400", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "435100", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "402400", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "252000", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "276700", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "144700", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "147700", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "138300", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "107900", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "126300", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "81700", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "54700", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "58100", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "64000", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "113500", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "118700", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "4309900", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "733500", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "250900", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "146900", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "56400", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "1081800", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "583400", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "283900", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "185500", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "64800", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "499000", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "310200", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "175100", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "145100", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "63100", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "292900", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "240200", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "228200", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "271800", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "180600", 
+            "Race": "Nonblack", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "690900", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "547500", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "330900", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "333500", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "132700", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "68400", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "146800", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "122500", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "177900", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "70500", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "17300", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "37500", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "44300", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "77700", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "48200", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "8200", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "11800", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "15500", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "43100", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "61400", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "666100", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "208600", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "74000", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "61700", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "22600", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "138100", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "73000", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "32800", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "26000", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "10600", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "26400", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "26000", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "11000", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "10400", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "4500", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "6300", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "9200", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "9000", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "8900", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "4900", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "816600", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "110700", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "29000", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "8800", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "2400", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "95400", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "50400", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "21800", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "8700", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "1000", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "35700", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "21300", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "10100", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "6300", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "1000", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "15600", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "13500", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "12000", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "11700", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "3700", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "3044120", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2997600", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2112140", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2872080", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1941760", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1088460", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1946600", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2244460", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "4323700", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "3508480", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "477980", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "916180", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1184100", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2579580", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2569500", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "316440", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "585420", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "869540", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2462980", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "4756140", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "165500", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "135500", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "91040", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "107920", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "65700", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "60780", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "84020", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "78920", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "120220", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "83840", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "31980", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "41360", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "43940", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "72280", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "57220", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "18860", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "22740", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "28520", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "65000", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "97060", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "988920", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "490880", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "241380", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "219640", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "107920", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "663600", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "563720", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "297760", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "272780", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "131900", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "308080", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "287880", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "168740", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "158160", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "79360", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "89900", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "109840", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "99220", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "126860", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "82600", 
+            "Race": "Nonblack", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "496160", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "364660", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "241920", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "291480", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "179560", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "118800", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "168860", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "160560", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "254360", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "175760", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "51540", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "78920", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "84160", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "167660", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "142420", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "18240", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "25420", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "33500", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "89940", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "141980", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "70200", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "40100", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "22120", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "21040", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "9060", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "20360", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "18240", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "13040", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "15720", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "8080", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "10960", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "10900", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "7800", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "10440", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "5700", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "2960", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "3660", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "3480", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "5960", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "4580", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "656800", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "196800", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "79000", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "61360", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "27080", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "305100", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "147460", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "58860", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "44820", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "16860", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "140120", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "91380", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "39360", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "30960", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "11740", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "22660", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "26960", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "21240", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "22200", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "9760", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2477242", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2486423", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1862499", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1642390", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1380005", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1193957", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2232684", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2761327", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "3413951", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "3418052", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "632863", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1331108", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2024839", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "3219172", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "4613053", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "300480", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "574499", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "1061698", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "2317466", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "7696176", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "229918", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "172102", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "110540", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "86798", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "64121", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "126925", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "155824", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "140895", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "129828", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "106704", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "77943", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "103374", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "114291", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "121653", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "121340", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "27551", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "36589", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "53800", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "83634", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "172631", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "1010149", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "432844", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "234243", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "162879", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "102902", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "780585", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "578730", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "372300", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "275301", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "185654", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "550394", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "484364", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "367706", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "282049", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "182042", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "111213", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "148770", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "192312", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "208293", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "200516", 
+            "Race": "Nonblack", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "354771", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "265901", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "196243", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "183542", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "150952", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "124832", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "177391", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "190763", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "221921", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "213518", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "65209", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "115406", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "156376", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "230262", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "289151", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "18565", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "28576", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "50506", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "99924", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MrrdCpl", 
+            "Dep": "271905", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "82440", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "44487", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "27371", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "17400", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "10281", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "38727", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "32884", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "23645", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "18118", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "11158", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "21674", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "22604", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "20226", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "18133", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "12994", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "5024", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "6413", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "7664", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "10315", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "MaleFam", 
+            "Dep": "12639", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "698631", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "185097", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "86299", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "55188", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "32826", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "438670", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "177489", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "89534", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "59925", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "33849", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "285199", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "182755", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "110801", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "77055", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "41712", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "32526", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "<15K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "42417", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "15-25K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "51121", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "25-35K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "50060", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "35-50K", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Famtype": "FemlFam", 
+            "Dep": "36696", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FmIncome": "50K+", 
+            "Educ": "CollGrad"
+        }
+    ]
+}
