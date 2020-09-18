@@ -55,7 +55,7 @@ def subsequent_entries(entry, header, cat_variables, quant_variables):
         print(json.dumps(entry, indent=2))
 
 
-def generate_header(file_path):
+def generate_header(file_path, sas_file):
     '''
     Generates a header for json file with the same formatting the header for Earn_AK.json
 
@@ -76,13 +76,13 @@ def generate_header(file_path):
         except:
             print(f"ERROR: {file_path} failed to read in")
     
-    header["title"] = data["SASJSONExport"]
+    header["title"] = data["SASJSONExport"] if sas_file else data["title"]
     header["numOfVars"] = 0
     header["varNames"] = []
     header["numCats"] = []
     header["varCats"] = {}
     
-    data_list = data["SASTableData+EDUCDATA"]
+    data_list = data["SASTableData+EDUCDATA"] if sas_file else data["theData"]
 
     for i in range(len(data_list)):
         if i == 0:
@@ -106,7 +106,7 @@ def generate_header(file_path):
     header["varCats"] = varcats_list
     return header
   
-def add_header(header, file_path):
+def add_header(header, file_path, sas_file):
     '''
     Adds a header to the specified file
 
@@ -122,9 +122,12 @@ def add_header(header, file_path):
     for i in header:
         data[i] = header[i]
 
-    data["theData"] = data["SASTableData+EDUCDATA"]
-    del data["SASTableData+EDUCDATA"]
-    del data["SASJSONExport"]
+    data["theData"] = data["SASTableData+EDUCDATA"] if sas_file else data["theData"]
+
+    if sas_file:
+        del data["SASTableData+EDUCDATA"]
+        del data["SASJSONExport"]
+
 
     with open(file_path, mode='w') as json_file:
         try:
@@ -133,7 +136,7 @@ def add_header(header, file_path):
         except:
             print(f"ERROR: {file_path} failed to add header")
 
-def generate_and_add_header(file_path):
+def generate_and_add_header(file_path, sas_file=True):
     '''
     Combines generate header and add header functions for easy use by other python scrips
 
@@ -142,9 +145,9 @@ def generate_and_add_header(file_path):
     '''
 
     try:
-        header = generate_header(file_path)
-        add_header(header, file_path)
-        True
+        header = generate_header(file_path, sas_file)
+        add_header(header, file_path, sas_file)
+        return True
     except:
         return False
 
