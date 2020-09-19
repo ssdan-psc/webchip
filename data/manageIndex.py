@@ -71,28 +71,34 @@ class ManageIndex:
             # Goes through every directory withiout ignored words and with no dots, assumed to be files
             if i not in self.ignore and not '.' in i:
                 self.build_reference_dir(i)
-                break
+        
+        self._write_to_reference()
+                
 
-    def build_reference_dir(self, collection):
+    def build_reference_dir(self, collection, append=False):
         '''
         Goes through a directory and does actions described in build_reference_dict
 
         Input:
             name (str): The name of the file
+            append (bool): If true update reference at end of function
         '''
         for i in os.listdir(self.data_dir + collection):
             # Calls build_reference file on all json files
             if i.split(".")[-1] == "json":
                 self.build_reference_file(i, collection)
-                break
+        
+        if append:
+            self._write_to_reference(append=True)
 
-    def build_reference_file(self, name, collection):
+    def build_reference_file(self, name, collection, append=False):
         '''
         Goes through a file and does actions described in build_reference_dict
 
         Input:
             name (str): The name of the file
             collection (str): The collection the file is located in
+            append (bool): If true write to reference file after function
         '''
         file_location = self.data_dir + collection + "/" + name
         with open(file_location) as json_file: 
@@ -108,7 +114,7 @@ class ManageIndex:
             generate_and_add_header(file_location, sas_file=False)
         
         name_no_extension = name.split(".")[0]
-        found_in_index = self._find_file_index(collection, name_no_extension, 0, len(self.index_list) - 1)
+        found_in_index = self._find_file_index(collection.lower(), name_no_extension.lower(), 0, len(self.index_list) - 1)
 
         if collection not in self.reference_dict:
             self.reference_dict[collection] = {}
@@ -118,25 +124,42 @@ class ManageIndex:
         
         self.reference_dict[collection][name_no_extension]["inIndex"] = found_in_index
         self.reference_dict[collection][name_no_extension]["lastUpdated"] = str(datetime.datetime.now())
+        print(f"File {collection}/{name} was added to the reference dict")
+
+        if append:
+            self._write_to_reference(append=True)
 
 
     def _verify_header(self, name, collection):
         '''
-        Verifies a file has a header
+        Verifies if a file has a header
 
         Input:
             name (str): The name of the file
             collection (str): The collection the file is located in 
         
         Returns:
-            True if there is a header and False if not
+            True if there is a header with all the proper fields and False if not
         '''
+        file_location = self.data_dir + collection + "/" + name
+        with open(file_location) as json_file: 
+            try:
+                file_data = json.load(json_file) 
+            except:
+                print(f"ERROR: {collection} / {name} failed to read in")
+        
+        expected_keys = ["numCats", "varCats", "title", "numOfVars", "varNames", "theData"]
+        file_keys = set(file_data.keys())
+
+        for k in expected_keys:
+            if k not in file_keys:
+                return False
 
         return True
     
     def _find_file_index(self, collection, name, left, right):
         '''
-        Finds file in index.json
+        Finds if file is in index.json
         Since index is sorted we can use binary search to find items
 
         Input:
@@ -152,8 +175,8 @@ class ManageIndex:
             return False
         
         middle = (left + right) // 2
-        middle_collection = self.index_list[middle]["collection"]
-        middle_name = self.index_list[middle]["name"]
+        middle_collection = self.index_list[middle]["collection"].lower()
+        middle_name = self.index_list[middle]["name"].lower()
 
         if middle_collection == collection and middle_name == name:
             return True
@@ -168,4 +191,20 @@ class ManageIndex:
             right = middle - 1
 
         return self._find_file_index(collection, name, left, right)
+    
+    def _write_to_reference(self, append=False):
+        '''
+        Writes the current values to reference.json
+
+        Inputs:
+            Append (bool): If true append to file instead of overwrite
+        '''
+
+        if not append:
+            with open(self.data_dir + "reference.json", mode='w') as json_file:
+                try:
+                    json.dump(self.reference_dict, json_file, indent=4)
+                    print(f"{file_path} sucessfully added reference")
+                except:
+                    print(f"ERROR: failed to add reference")
             

@@ -76,7 +76,13 @@ def generate_header(file_path, sas_file):
         except:
             print(f"ERROR: {file_path} failed to read in")
     
-    header["title"] = data["SASJSONExport"] if sas_file else data["title"]
+    if sas_file:
+        header["title"] = data["SASJSONExport"] 
+    elif "title" in data:
+        header["title"] = data["title"]
+    else:
+        header["title"] = "Title"
+
     header["numOfVars"] = 0
     header["varNames"] = []
     header["numCats"] = []
@@ -119,10 +125,19 @@ def add_header(header, file_path, sas_file):
     with open(file_path) as json_file: 
         data = json.load(json_file)
 
+    temp_data = {}
+    if not sas_file:
+        expected_keys = ["numCats", "varCats", "title", "numOfVars", "varNames"]
+        temp_data = data["theData"]
+        del data["theData"]
+        for i in expected_keys:
+            if i in data:
+                del data[i]
+
     for i in header:
         data[i] = header[i]
 
-    data["theData"] = data["SASTableData+EDUCDATA"] if sas_file else data["theData"]
+    data["theData"] = data["SASTableData+EDUCDATA"] if sas_file else temp_data
 
     if sas_file:
         del data["SASTableData+EDUCDATA"]
