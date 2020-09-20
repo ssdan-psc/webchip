@@ -12,19 +12,10 @@ class ManageIndex:
         # Gets root of data directory
         self.data_dir = '/'.join(os.path.realpath(__file__).split("/")[:-1]) + "/"
 
-        with open(self.data_dir + "reference.json") as json_file: 
-            try:
-                self.reference_dict = json.load(json_file) 
-            except:
-                print(f"ERROR: reference.json failed to read in")
-        
-        with open(self.data_dir + "index.json") as json_file: 
-            try:
-                self.index_list = json.load(json_file) 
-            except:
-                print(f"ERROR: index.json failed to read in")
+        self.reference_dict = self._read_file(self.data_dir + "reference.json")
+        self.index_list = self._read_file(self.data_dir + "index.json")
 
-    def remove_file(self, name, collection):
+    def remove_entry(self, name, collection):
         '''
         Removes an entry from index.json
 
@@ -33,11 +24,11 @@ class ManageIndex:
             collection (str): The collection the file is located in
         
         Returns:
-            True on sucess and False on failure.
+            True on sucessful removal and False on failure.
         '''
         pass
 
-    def insert_file(self, name, collection):
+    def insert_entry(self, name, collection):
         '''
         Adds an entry to index.json
 
@@ -46,9 +37,29 @@ class ManageIndex:
             collection (str): The collection the file is located in
         
         Returns:
-            True on sucess and False on failure. 
+            True on sucessful addition and False on failure. 
         '''
-        pass
+
+        # Check if file is in reference
+        name_no_extension = name.split(".")[0]
+        in_index = False
+        if collection in self.reference_dict:
+            if name_no_extension in self.reference_dict[collection]:
+                in_index = self.reference_dict[collection][name_no_extension]["inIndex"]
+            else:
+                # Add file to reference
+                pass
+        else:
+            # Add collection and file to reference
+            pass
+
+        if in_index:
+            print(f"{collection}/{name} is already in index")
+            return False
+        
+        # Insert into reference function
+        # Look into bisect module. Allows insertion into sorted list
+        
 
     def build_reference_dict(self):
         '''
@@ -72,7 +83,7 @@ class ManageIndex:
             if i not in self.ignore and not '.' in i:
                 self.build_reference_dir(i)
         
-        self._write_to_reference()
+        self._write_to_file(self.data_dir + "reference.json")
                 
 
     def build_reference_dir(self, collection, append=False):
@@ -89,7 +100,7 @@ class ManageIndex:
                 self.build_reference_file(i, collection)
         
         if append:
-            self._write_to_reference(append=True)
+            self._write_to_file(self.data_dir + "reference.json")
 
     def build_reference_file(self, name, collection, append=False):
         '''
@@ -101,11 +112,7 @@ class ManageIndex:
             append (bool): If true write to reference file after function
         '''
         file_location = self.data_dir + collection + "/" + name
-        with open(file_location) as json_file: 
-            try:
-                file_data = json.load(json_file) 
-            except:
-                print(f"ERROR: {collection} / {name} failed to read in")
+        file_data = self._read_file(file_location)
         
         has_header = self._verify_header(name, collection)
 
@@ -127,7 +134,7 @@ class ManageIndex:
         print(f"File {collection}/{name} was added to the reference dict")
 
         if append:
-            self._write_to_reference(append=True)
+            self._write_to_file(self.data_dir + "reference.json")
 
 
     def _verify_header(self, name, collection):
@@ -142,11 +149,7 @@ class ManageIndex:
             True if there is a header with all the proper fields and False if not
         '''
         file_location = self.data_dir + collection + "/" + name
-        with open(file_location) as json_file: 
-            try:
-                file_data = json.load(json_file) 
-            except:
-                print(f"ERROR: {collection} / {name} failed to read in")
+        file_data = self._read_file(file_location)
         
         expected_keys = ["numCats", "varCats", "title", "numOfVars", "varNames", "theData"]
         file_keys = set(file_data.keys())
@@ -192,19 +195,35 @@ class ManageIndex:
 
         return self._find_file_index(collection, name, left, right)
     
-    def _write_to_reference(self, append=False):
+    def _read_file(self, file_path):
+        '''
+        Reads in file data
+
+        Inputs:
+            file_path (str): Path to the file
+
+        Returns:
+            File data if sucessful else None
+        '''
+
+        with open(file_path) as json_file: 
+            try:
+                return json.load(json_file) 
+            except:
+                print(f"ERROR: {file_path} failed to read in")
+
+    def _write_to_file(self, file_path):
         '''
         Writes the current values to reference.json
 
         Inputs:
-            Append (bool): If true append to file instead of overwrite
+            file_path (str): Path to the file
         '''
 
-        if not append:
-            with open(self.data_dir + "reference.json", mode='w') as json_file:
-                try:
-                    json.dump(self.reference_dict, json_file, indent=4)
-                    print(f"{file_path} sucessfully added reference")
-                except:
-                    print(f"ERROR: failed to add reference")
-            
+        with open(file_path, mode='w') as json_file:
+            try:
+                json.dump(self.reference_dict, json_file, indent=4)
+                print(f"{file_path} sucessfully added")
+            except:
+                print(f"ERROR: failed to add {file_path}")
+        

@@ -1,4 +1,5 @@
+import json
 from manageIndex import ManageIndex
 
 temp = ManageIndex()
-temp.build_reference_dict()
+temp.insert_entry("earn11.json", "acs11_1yr")
