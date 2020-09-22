@@ -1,6 +1,7 @@
 import datetime
 import json
 import os
+from collections import OrderedDict
 from generateHeader import generate_and_add_header
 
 class ManageIndex:
@@ -28,13 +29,17 @@ class ManageIndex:
         '''
         pass
 
-    def insert_entry(self, name, collection):
+    def insert_entry(self, name, collection, save=True):
         '''
         Adds an entry to index.json
+        Assumes that this entry is in the proper location but not necessarily in index or reference
+        Also assumes that if something is not in reference it is not in index
+        Final assumption is that new files being passed in without headers are sas formatted
 
         Input:
             name (str): The name of the file to remove
             collection (str): The collection the file is located in
+            save (bool): True to save reference and index
         
         Returns:
             True on sucessful addition and False on failure. 
@@ -46,19 +51,43 @@ class ManageIndex:
         if collection in self.reference_dict:
             if name_no_extension in self.reference_dict[collection]:
                 in_index = self.reference_dict[collection][name_no_extension]["inIndex"]
-            else:
-                # Add file to reference
-                pass
         else:
-            # Add collection and file to reference
-            pass
+            self.reference_dict[collection] = {}
 
         if in_index:
             print(f"{collection}/{name} is already in index")
             return False
         
-        # Insert into reference function
-        # Look into bisect module. Allows insertion into sorted list
+        file_location = self.data_dir + collection + "/" + name
+        # Verify header and add one if necessary
+        has_header = self._verify_header(name, collection)
+
+        if not has_header:
+            print(f"Adding header to {collection} / {name}")
+            generate_and_add_header(file_location, sas_file=True)
+
+        # Sort reference dict changed and add to reference dict
+        self.reference_dict[collection][name_no_extension] = {
+            "inIndex": True,
+            "lastUpdated": str(datetime.datetime.now())
+        }
+        self.reference_dict[collection] = OrderedDict(sorted(self.reference_dict[collection].items()))
+
+        # Inserts new file into index
+        name_cleared = name.split(".")[0]
+        new_entry = {
+            "path": f"data/{collection}/{name}",
+            "name": name_cleared,
+            "collection": collection
+        }
+        self.index_list.append(new_entry)
+
+        print(f"{collection}/{name} added to index.json")
+
+        if save:
+            self._sort_and_update_files()
+
+        return True
         
 
     def build_reference_dict(self):
@@ -83,7 +112,7 @@ class ManageIndex:
             if i not in self.ignore and not '.' in i:
                 self.build_reference_dir(i)
         
-        self._write_to_file(self.data_dir + "reference.json")
+        self._write_to_reference()
                 
 
     def build_reference_dir(self, collection, append=False):
@@ -100,7 +129,7 @@ class ManageIndex:
                 self.build_reference_file(i, collection)
         
         if append:
-            self._write_to_file(self.data_dir + "reference.json")
+            self._write_to_reference()
 
     def build_reference_file(self, name, collection, append=False):
         '''
@@ -134,7 +163,7 @@ class ManageIndex:
         print(f"File {collection}/{name} was added to the reference dict")
 
         if append:
-            self._write_to_file(self.data_dir + "reference.json")
+            self._write_to_reference()
 
 
     def _verify_header(self, name, collection):
@@ -212,18 +241,39 @@ class ManageIndex:
             except:
                 print(f"ERROR: {file_path} failed to read in")
 
-    def _write_to_file(self, file_path):
+    def _write_to_reference(self):
         '''
         Writes the current values to reference.json
-
-        Inputs:
-            file_path (str): Path to the file
         '''
 
+        file_path = self.data_dir + "reference.json"
         with open(file_path, mode='w') as json_file:
             try:
                 json.dump(self.reference_dict, json_file, indent=4)
                 print(f"{file_path} sucessfully added")
             except:
                 print(f"ERROR: failed to add {file_path}")
+    
+    def _write_to_index(self):
+        '''
+        Writes the current values to index.json
+        '''
+
+        file_path = self.data_dir + "index.json"
+        with open(file_path, mode='w') as json_file:
+            try:
+                json.dump(self.index_list, json_file, indent=4)
+                print(f"{file_path} sucessfully added")
+            except:
+                print(f"ERROR: failed to add {file_path}")
+
+    
+    def _sort_and_update_files(self):
+        '''
+        Sorts and updates reference and index 
+        '''
+        self.index_list = sorted(self.index_list, key=lambda x: (x["collection"], x["name"]))
+        self.reference_dict = OrderedDict(sorted(self.reference_dict.items()))
+        self._write_to_index()
+        self._write_to_reference()
         
