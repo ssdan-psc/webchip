@@ -2,5 +2,6 @@ import json
 from manageIndex import ManageIndex
 
 temp = ManageIndex()
-temp.insert_entry("ape.json", "abc123")
-#temp._sort_and_insert_index("testing", "abc123")
+#temp.insert_entry("ape.json", "abc123")
+temp.remove_entry("hhpov10.json", "acs10_1yr")
+temp.remove_entry("popusa10.json", "acs10_1yr")

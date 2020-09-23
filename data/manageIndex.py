@@ -16,9 +16,10 @@ class ManageIndex:
         self.reference_dict = self._read_file(self.data_dir + "reference.json")
         self.index_list = self._read_file(self.data_dir + "index.json")
 
-    def remove_entry(self, name, collection):
+    def remove_entry(self, name, collection, save=True):
         '''
         Removes an entry from index.json
+        Assumes if it exists it is in reference
 
         Input:
             name (str): The name of the file to remove
@@ -27,7 +28,26 @@ class ManageIndex:
         Returns:
             True on sucessful removal and False on failure.
         '''
-        pass
+        name_no_extension = name.split(".")[0]
+        in_index = False
+        if collection in self.reference_dict:
+            if name_no_extension in self.reference_dict[collection]:
+                in_index = self.reference_dict[collection][name_no_extension]["inIndex"]
+        
+        if not in_index:
+            print(f"{collection}/{name} is not in index")
+            return False
+        
+        index = self._find_file_index(collection.lower(), name_no_extension.lower(), 0, len(self.index_list) - 1)
+
+        self.reference_dict[collection][name_no_extension]["inIndex"] = False
+        self.index_list = [self.index_list[i] for i in range(len(self.index_list)) if i != index]
+
+        if save:
+            self._sort_and_update_files(sort_vals=False)
+        
+        return True
+
 
     def insert_entry(self, name, collection, save=True):
         '''
@@ -150,7 +170,7 @@ class ManageIndex:
             generate_and_add_header(file_location, sas_file=False)
         
         name_no_extension = name.split(".")[0]
-        found_in_index = self._find_file_index(collection.lower(), name_no_extension.lower(), 0, len(self.index_list) - 1)
+        found_index = self._find_file_index(collection.lower(), name_no_extension.lower(), 0, len(self.index_list) - 1)
 
         if collection not in self.reference_dict:
             self.reference_dict[collection] = {}
@@ -158,7 +178,7 @@ class ManageIndex:
         if name_no_extension not in self.reference_dict[collection]:
             self.reference_dict[collection][name_no_extension] = {}
         
-        self.reference_dict[collection][name_no_extension]["inIndex"] = found_in_index
+        self.reference_dict[collection][name_no_extension]["inIndex"] = (found_index > -1)
         self.reference_dict[collection][name_no_extension]["lastUpdated"] = str(datetime.datetime.now())
         print(f"File {collection}/{name} was added to the reference dict")
 
@@ -201,17 +221,17 @@ class ManageIndex:
             right (int): right index of binary search
         
         Returns:
-            True if found and False if not found
+            Index of entry or -1 if it doesn't exist
         '''
         if left > right:
-            return False
+            return -1
         
         middle = (left + right) // 2
         middle_collection = self.index_list[middle]["collection"].lower()
         middle_name = self.index_list[middle]["name"].lower()
 
         if middle_collection == collection and middle_name == name:
-            return True
+            return middle
         elif middle_collection == collection:
             if middle_name < name:
                 left = middle + 1
@@ -268,12 +288,13 @@ class ManageIndex:
                 print(f"ERROR: failed to add {file_path}")
 
     
-    def _sort_and_update_files(self):
+    def _sort_and_update_files(self, sort_vals=True):
         '''
         Sorts and updates reference and index 
         '''
-        self.index_list = sorted(self.index_list, key=lambda x: (x["collection"], x["name"]))
-        self.reference_dict = OrderedDict(sorted(self.reference_dict.items()))
+        if sort_vals:
+            self.index_list = sorted(self.index_list, key=lambda x: (x["collection"], x["name"]))
+            self.reference_dict = OrderedDict(sorted(self.reference_dict.items()))
         self._write_to_index()
         self._write_to_reference()
         
