@@ -145,6 +145,7 @@ def build_index():
 				record = {"name": name, "path": real_path, "collection": group}
 				if ".json" in record["path"]:
 					the_index.append(record)
+	the_index = sorted(the_index, key=lambda x: (x["collection"], x["name"]))
 	with open("index.json", 'w') as out_file:
 		j = json.dumps(the_index, indent=4)
 		out_file.write(j)
@@ -161,18 +162,18 @@ def main():
 	 	for f in sys.argv:
 	 		parse(f)
 	else:
-	 	for dirname, dirnames, filenames in os.walk('.'):
-			for filename in filenames:
+		for	dirname, dirnames, filenames in	os.walk('.'):
+			for	filename in	filenames:
 				filename = os.path.join(dirname, filename)
 				if '.dat' in filename.lower():
 					parse(filename)
 				else:
-					logging.info("Skipped parse & build JSON for " + filename)
+					logging.info("Skipped parse	& build JSON for" + filename)
 
 	logging.info('Building index')
 	build_index()
 
-if __name__ == "__main__": 
+if __name__ == "__main__":	
 	main()
 
 
