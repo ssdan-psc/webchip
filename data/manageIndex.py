@@ -51,8 +51,10 @@ class ManageIndex:
 
     def insert_collection(self, collection):
         '''
-        Adds entry if not used before then it adds all files within that directory
+        Adds collection to index along with all files inside
+        If collection or files already exists it simply verifies there's a header
         '''
+
         for i in os.listdir(self.data_dir + collection):
             # Calls build_reference file on all json files
             if i.split(".")[-1] == "json":
