@@ -16,6 +16,7 @@ class ManageIndex:
         self.reference_dict = self._read_file(self.data_dir + "reference.json")
         self.index_list = self._read_file(self.data_dir + "index.json")
 
+    
     def remove_entry(self, name, collection, save=True):
         '''
         Removes an entry from index.json
@@ -48,8 +49,19 @@ class ManageIndex:
         
         return True
 
+    def insert_collection(self, collection):
+        '''
+        Adds entry if not used before then it adds all files within that directory
+        '''
+        for i in os.listdir(self.data_dir + collection):
+            # Calls build_reference file on all json files
+            if i.split(".")[-1] == "json":
+                self.insert_name(i, collection, save=False)
+        
+        self._sort_and_update_files()
 
-    def insert_entry(self, name, collection, save=True):
+
+    def insert_name(self, name, collection, save=True):
         '''
         Adds an entry to index.json
         Assumes that this entry is in the proper location but not necessarily in index or reference
