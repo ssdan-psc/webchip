@@ -69,7 +69,7 @@ def generate_header(file_path, sas_file):
     header = OrderedDict()
     cat_variables = set()
     quant_variables = set()
-
+    
     with open(file_path) as json_file: 
         try:
             data = json.load(json_file) 
@@ -78,6 +78,7 @@ def generate_header(file_path, sas_file):
     
     if sas_file:
         header["title"] = data["SASJSONExport"] 
+        data_key = list(data.keys())[1]
     elif "title" in data:
         header["title"] = data["title"]
     else:
@@ -87,9 +88,12 @@ def generate_header(file_path, sas_file):
     header["varNames"] = []
     header["numCats"] = []
     header["varCats"] = {}
+  
+    if sas_file:
+        data_list = data[data_key]
+    else:
+        data_list = data["theData"]
     
-    data_list = data["SASTableData+EDUCDATA"] if sas_file else data["theData"]
-
     for i in range(len(data_list)):
         if i == 0:
             first_entry(data_list[i], header, cat_variables, quant_variables)
@@ -137,10 +141,14 @@ def add_header(header, file_path, sas_file):
     for i in header:
         data[i] = header[i]
 
-    data["theData"] = data["SASTableData+EDUCDATA"] if sas_file else temp_data
+    if sas_file:
+        data_key = list(data.keys())[1]
+        data["theData"] = data[data_key]
+    else:
+        data["theData"] = temp_data
 
     if sas_file:
-        del data["SASTableData+EDUCDATA"]
+        del data[data_key]
         del data["SASJSONExport"]
 
 

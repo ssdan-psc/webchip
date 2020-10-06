@@ -17,7 +17,7 @@ class ManageIndex:
         self.index_list = self._read_file(self.data_dir + "index.json")
 
     
-    def remove_entry(self, name, collection, save=True):
+    def remove_name(self, name, collection, save=True):
         '''
         Removes an entry from index.json
         Assumes if it exists it is in reference
@@ -48,6 +48,19 @@ class ManageIndex:
             self._sort_and_update_files(sort_vals=False)
         
         return True
+
+    def remove_collection(self, collection):
+        '''
+        Removes collection all files inside collection from index
+        If collection doesn't exist nothing will happen
+        '''
+
+        for i in os.listdir(self.data_dir + collection):
+            # Calls build_reference file on all json files
+            if i.split(".")[-1] == "json":
+                self.remove_name(i, collection, save=False)
+        
+        self._sort_and_update_files()
 
     def insert_collection(self, collection):
         '''
@@ -94,11 +107,15 @@ class ManageIndex:
         
         file_location = self.data_dir + collection + "/" + name
         # Verify header and add one if necessary
-        has_header = self._verify_header(name, collection)
+        has_header, is_sas_output = self._verify_header(name, collection)
 
         if not has_header:
             print(f"Adding header to {collection} / {name}")
-            generate_and_add_header(file_location, sas_file=True)
+            if is_sas_output:
+                generate_and_add_header(file_location, sas_file=True)
+            else:
+                generate_and_add_header(file_location, sas_file=False)
+
 
         # Sort reference dict changed and add to reference dict
         self.reference_dict[collection][name_no_extension] = {
@@ -177,11 +194,14 @@ class ManageIndex:
         file_location = self.data_dir + collection + "/" + name
         file_data = self._read_file(file_location)
         
-        has_header = self._verify_header(name, collection)
+        has_header, is_sas_output = self._verify_header(name, collection)
 
         if not has_header:
             print(f"Adding header to {collection} / {name}")
-            generate_and_add_header(file_location, sas_file=False)
+            if is_sas_output:
+                generate_and_add_header(file_location, sas_file=True)
+            else:
+                generate_and_add_header(file_location, sas_file=False)
         
         name_no_extension = name.split(".")[0]
         found_index = self._find_file_index(collection.lower(), name_no_extension.lower(), 0, len(self.index_list) - 1)
@@ -210,6 +230,7 @@ class ManageIndex:
         
         Returns:
             True if there is a header with all the proper fields and False if not
+            Second boolean is whether or not it is a sas json output
         '''
         file_location = self.data_dir + collection + "/" + name
         file_data = self._read_file(file_location)
@@ -219,9 +240,12 @@ class ManageIndex:
 
         for k in expected_keys:
             if k not in file_keys:
-                return False
+                if 'SASJSONExport' in file_keys:
+                    return False, True
+                else:
+                    return False, False
 
-        return True
+        return True, False
     
     def _find_file_index(self, collection, name, left, right):
         '''
