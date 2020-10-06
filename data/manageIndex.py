@@ -17,6 +17,34 @@ class ManageIndex:
         self.index_list = self._read_file(self.data_dir + "index.json")
 
     
+    def edit_title(self, name, collection, new_title):
+        '''
+        Edits the title of a file
+        Returns:
+            True on sucess. False on failure
+        '''
+
+        file_location = self.data_dir + collection + "/" + name
+        # Verify header and add one if necessary
+        has_header, is_sas_output = self._verify_header(name, collection)
+
+        if not has_header:
+            print(f"Adding header to {collection} / {name}")
+            if is_sas_output:
+                generate_and_add_header(file_location, sas_file=True)
+            else:
+                generate_and_add_header(file_location, sas_file=False)
+
+        file_data = self._read_file(file_location)
+        try:
+            file_data["title"] = new_title
+        except:
+            print(f"Title was not added sucessfully to {file_location}")
+            return False
+        
+        return self._save_generic_file(file_location, file_data)
+        
+
     def remove_name(self, name, collection, save=True):
         '''
         Removes an entry from index.json
@@ -298,6 +326,27 @@ class ManageIndex:
                 return json.load(json_file) 
             except:
                 print(f"ERROR: {file_path} failed to read in")
+    
+    def _save_generic_file(self, file_path, new_data):
+        '''
+        Saves new output to file
+
+        Inputs:
+            file_path (str): Path to the file
+            new_data (dict): Dictonary to save
+
+        Returns:
+            True on success False on failure
+        '''
+        with open(file_path, mode='w') as json_file:
+            try:
+                json.dump(new_data, json_file, indent=4)
+                print(f"{file_path} sucessfully added")
+            except:
+                print(f"ERROR: failed to add {file_path}")
+                return False
+        
+        return True
 
     def _write_to_reference(self):
         '''
