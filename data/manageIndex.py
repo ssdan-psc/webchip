@@ -1,6 +1,7 @@
 import datetime
 import json
 import os
+import sys
 from collections import OrderedDict
 from generateHeader import generate_and_add_header
 
@@ -17,6 +18,39 @@ class ManageIndex:
         self.index_list = self._read_file(self.data_dir + "index.json")
 
     
+    def add_file_ref(self, collection, filename, save=True):
+        self.reference_dict[collection][filename] = {
+            "inIndex": False,
+            "lastUpdated": str(datetime.datetime.now())
+        }
+
+        if save:
+            self.reference_dict[collection] = OrderedDict(sorted(self.reference_dict[collection].items()))
+            return self._sort_and_update_files(sort_vals=True)
+
+        return True
+
+    def add_collection_ref(self, collection):
+        self.reference_dict[collection] = {}
+
+        for i in os.listdir(self.data_dir + collection):
+            i = i[:-5]
+            self.add_file_ref(collection, i)
+        
+        return self._sort_and_update_files(sort_vals=True)
+
+    
+
+    def get_title(self, name, collection):
+        file_location = self.data_dir + collection + "/" + name
+        file_data = self._read_file(file_location)
+
+        if file_data:
+            return file_data["title"]
+        else:
+            return False
+
+
     def edit_title(self, name, collection, new_title):
         '''
         Edits the title of a file
@@ -36,6 +70,10 @@ class ManageIndex:
                 generate_and_add_header(file_location, sas_file=False)
 
         file_data = self._read_file(file_location)
+
+        if not file_data:
+            return False
+
         try:
             file_data["title"] = new_title
         except:
@@ -73,7 +111,7 @@ class ManageIndex:
         self.index_list = [self.index_list[i] for i in range(len(self.index_list)) if i != index]
 
         if save:
-            self._sort_and_update_files(sort_vals=False)
+            return self._sort_and_update_files(sort_vals=False)
         
         return True
 
@@ -88,7 +126,7 @@ class ManageIndex:
             if i.split(".")[-1] == "json":
                 self.remove_name(i, collection, save=False)
         
-        self._sort_and_update_files()
+        return self._sort_and_update_files()
 
     def insert_collection(self, collection):
         '''
@@ -101,7 +139,7 @@ class ManageIndex:
             if i.split(".")[-1] == "json":
                 self.insert_name(i, collection, save=False)
         
-        self._sort_and_update_files()
+        return self._sort_and_update_files()
 
 
     def insert_name(self, name, collection, save=True):
@@ -164,7 +202,7 @@ class ManageIndex:
         print(f"{collection}/{name} added to index.json")
 
         if save:
-            self._sort_and_update_files()
+            return self._sort_and_update_files()
 
         return True
         
@@ -221,6 +259,9 @@ class ManageIndex:
         '''
         file_location = self.data_dir + collection + "/" + name
         file_data = self._read_file(file_location)
+
+        if not file_data:
+            return False
         
         has_header, is_sas_output = self._verify_header(name, collection)
 
@@ -262,6 +303,9 @@ class ManageIndex:
         '''
         file_location = self.data_dir + collection + "/" + name
         file_data = self._read_file(file_location)
+
+        if not file_data:
+            return False, False
         
         expected_keys = ["numCats", "varCats", "title", "numOfVars", "varNames", "theData"]
         file_keys = set(file_data.keys())
@@ -321,11 +365,12 @@ class ManageIndex:
             File data if sucessful else None
         '''
 
-        with open(file_path) as json_file: 
-            try:
-                return json.load(json_file) 
-            except:
-                print(f"ERROR: {file_path} failed to read in")
+        try:
+            with open(file_path) as json_file: 
+                return  json.load(json_file) 
+        except:
+            print(f"ERROR: {file_path} failed to read in")
+            return False
     
     def _save_generic_file(self, file_path, new_data):
         '''
@@ -338,13 +383,13 @@ class ManageIndex:
         Returns:
             True on success False on failure
         '''
-        with open(file_path, mode='w') as json_file:
-            try:
+        try:
+            with open(file_path, mode='w') as json_file:
                 json.dump(new_data, json_file, indent=4)
                 print(f"{file_path} sucessfully added")
-            except:
-                print(f"ERROR: failed to add {file_path}")
-                return False
+        except:
+            print(f"ERROR: failed to add {file_path}")
+            return False
         
         return True
 
@@ -354,12 +399,15 @@ class ManageIndex:
         '''
 
         file_path = self.data_dir + "reference.json"
-        with open(file_path, mode='w') as json_file:
-            try:
+
+        try:
+            with open(file_path, mode='w') as json_file:
                 json.dump(self.reference_dict, json_file, indent=4)
                 print(f"{file_path} sucessfully added")
-            except:
+                return True
+        except:
                 print(f"ERROR: failed to add {file_path}")
+                return False
     
     def _write_to_index(self):
         '''
@@ -367,12 +415,14 @@ class ManageIndex:
         '''
 
         file_path = self.data_dir + "index.json"
-        with open(file_path, mode='w') as json_file:
-            try:
+        try:
+            with open(file_path, mode='w') as json_file:
                 json.dump(self.index_list, json_file, indent=4)
                 print(f"{file_path} sucessfully added")
-            except:
-                print(f"ERROR: failed to add {file_path}")
+                return True
+        except:
+            print(f"ERROR: failed to add {file_path}")
+            return False
 
     
     def _sort_and_update_files(self, sort_vals=True):
@@ -382,6 +432,40 @@ class ManageIndex:
         if sort_vals:
             self.index_list = sorted(self.index_list, key=lambda x: (x["collection"], x["name"]))
             self.reference_dict = OrderedDict(sorted(self.reference_dict.items()))
-        self._write_to_index()
-        self._write_to_reference()
+        w = self._write_to_index()
+        wr = self._write_to_reference()
+
+        return w and wr
         
+
+if __name__ == "__main__":
+    num_vars = len(sys.argv)
+    inputs = sys.argv
+    if num_vars == 1:
+        print("ERROR Inproper Input")
+
+    editor = ManageIndex()
+    if inputs[1] == "edit_title":
+        print(editor.edit_title(inputs[2], inputs[3], inputs[4]))
+    elif inputs[1] == "get_title":
+        print(editor.get_title(inputs[2], inputs[3]))
+    elif inputs[1] == "remove_name":
+        print(editor.remove_name(inputs[2], inputs[3]))
+    
+    elif inputs[1] == "remove_collection":
+        print(editor.remove_collection(inputs[2]))
+    
+    elif inputs[1] == "insert_collection":
+        print(editor.insert_collection(inputs[2]))
+    
+    elif inputs[1] == "insert_name":
+        print(editor.insert_name(inputs[2], inputs[3]))
+    
+    elif inputs[1] == "collection_ref":
+        print(editor.add_collection_ref(inputs[2]))
+    
+    elif inputs[1] == "file_ref":
+        print(editor.add_file_ref(inputs[2], inputs[3]))
+    else:
+        print("Incorrect input function")
+        print("False")

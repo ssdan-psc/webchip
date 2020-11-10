@@ -3,6 +3,7 @@ import os
 import sys
 from collections import OrderedDict
 
+
 def first_entry(entry, header, cat_variables, quant_variables):
     '''
     Modifies the header for the first dicotonary entry
@@ -70,11 +71,12 @@ def generate_header(file_path, sas_file):
     cat_variables = set()
     quant_variables = set()
     
-    with open(file_path) as json_file: 
-        try:
+    try:
+        with open(file_path) as json_file: 
             data = json.load(json_file) 
-        except:
-            print(f"ERROR: {file_path} failed to read in")
+    except:
+        print(f"ERROR: {file_path} failed to read in")
+        return False
     
     if sas_file:
         header["title"] = data["SASJSONExport"] 
@@ -151,13 +153,13 @@ def add_header(header, file_path, sas_file):
         del data[data_key]
         del data["SASJSONExport"]
 
-
-    with open(file_path, mode='w') as json_file:
-        try:
+    try:
+        with open(file_path, mode='w') as json_file:
             json.dump(data, json_file, indent=4)
             print(f"{file_path} sucessfully added header")
-        except:
-            print(f"ERROR: {file_path} failed to add header")
+    except:
+        print(f"ERROR: {file_path} failed to add header")
+        return False
 
 def generate_and_add_header(file_path, sas_file=True):
     '''
